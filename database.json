@@ -1,7 +1,7 @@
 {
   "moviesData": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Avatar: The Way of Water",
       "genre": "Sci-Fi, Action",
       "duration": "192 phút",
@@ -9,14 +9,38 @@
       "poster": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=450&fit=crop",
       "description": "Jake Sully sống cùng gia đình mới trên hành tinh Pandora. Khi một mối đe dọa quen thuộc trở lại...",
       "showtimes": [
-        { "id": 1, "time": "09:00", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 120000 },
-        { "id": 2, "time": "14:30", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 150000 },
-        { "id": 3, "time": "19:45", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 180000 },
-        { "id": 4, "time": "22:00", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 150000 }
+        {
+          "id": 1,
+          "time": "09:00",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 2,
+          "time": "14:30",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        },
+        {
+          "id": 3,
+          "time": "19:45",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 180000
+        },
+        {
+          "id": 4,
+          "time": "22:00",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        }
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Top Gun: Maverick",
       "genre": "Action, Drama",
       "duration": "131 phút",
@@ -24,13 +48,31 @@
       "poster": "https://images.unsplash.com/photo-1489599363321-5a57ef2b2a51?w=300&h=450&fit=crop",
       "description": "Pete 'Maverick' Mitchell trở lại sau 30 năm phục vụ trong hải quân...",
       "showtimes": [
-        { "id": 5, "time": "10:15", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 140000 },
-        { "id": 6, "time": "15:00", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 170000 },
-        { "id": 7, "time": "20:30", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 200000 }
+        {
+          "id": 5,
+          "time": "10:15",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 140000
+        },
+        {
+          "id": 6,
+          "time": "15:00",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 170000
+        },
+        {
+          "id": 7,
+          "time": "20:30",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 200000
+        }
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Batman",
       "genre": "Action, Thriller",
       "duration": "176 phút",
@@ -38,14 +80,38 @@
       "poster": "https://images.unsplash.com/photo-1615227291234-c13d0bf7c872?w=300&h=450&fit=crop",
       "description": "Với mặt nạ mới, Batman phải tìm hiểu về nỗi sợ hãi ẩn giấu của Gotham...",
       "showtimes": [
-        { "id": 8, "time": "08:45", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 110000 },
-        { "id": 9, "time": "13:30", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 140000 },
-        { "id": 10, "time": "18:00", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 170000 },
-        { "id": 11, "time": "21:15", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 150000 }
+        {
+          "id": 8,
+          "time": "08:45",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 110000
+        },
+        {
+          "id": 9,
+          "time": "13:30",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 140000
+        },
+        {
+          "id": 10,
+          "time": "18:00",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 170000
+        },
+        {
+          "id": 11,
+          "time": "21:15",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 150000
+        }
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Oppenheimer",
       "genre": "Biography, Drama",
       "duration": "180 phút",
@@ -53,13 +119,31 @@
       "poster": "https://images.unsplash.com/photo-1621839945360-1c2c0e9b7f11?w=300&h=450&fit=crop",
       "description": "Câu chuyện về cuộc đời và công trình của nhà vật lý J. Robert Oppenheimer...",
       "showtimes": [
-        { "id": 12, "time": "09:30", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 160000 },
-        { "id": 13, "time": "14:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 190000 },
-        { "id": 14, "time": "18:45", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 220000 }
+        {
+          "id": 12,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 160000
+        },
+        {
+          "id": 13,
+          "time": "14:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 190000
+        },
+        {
+          "id": 14,
+          "time": "18:45",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 220000
+        }
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Barbie",
       "genre": "Comedy, Fantasy",
       "duration": "114 phút",
@@ -67,13 +151,31 @@
       "poster": "https://images.unsplash.com/photo-1596558458847-1e61d9ca4f39?w=300&h=450&fit=crop",
       "description": "Barbie rời khỏi thế giới hồng hào của mình để khám phá thế giới con người...",
       "showtimes": [
-        { "id": 15, "time": "11:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 130000 },
-        { "id": 16, "time": "16:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 160000 },
-        { "id": 17, "time": "20:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 180000 }
+        {
+          "id": 15,
+          "time": "11:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 130000
+        },
+        {
+          "id": 16,
+          "time": "16:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 160000
+        },
+        {
+          "id": 17,
+          "time": "20:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Inception",
       "genre": "Sci-Fi, Thriller",
       "duration": "148 phút",
@@ -81,13 +183,31 @@
       "poster": "https://images.unsplash.com/photo-1536113127-34a3a0d13c92?w=300&h=450&fit=crop",
       "description": "Câu chuyện về một nhóm trộm sử dụng giấc mơ để đánh cắp những bí mật quan trọng.",
       "showtimes": [
-        { "id": 18, "time": "09:00", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 130000 },
-        { "id": 19, "time": "13:30", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 160000 },
-        { "id": 20, "time": "18:00", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 200000 }
+        {
+          "id": 18,
+          "time": "09:00",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 130000
+        },
+        {
+          "id": 19,
+          "time": "13:30",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        },
+        {
+          "id": 20,
+          "time": "18:00",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 200000
+        }
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Jurassic World",
       "genre": "Action, Adventure, Sci-Fi",
       "duration": "124 phút",
@@ -95,13 +215,31 @@
       "poster": "https://images.unsplash.com/photo-1613762389687-e53ad47c88b2?w=300&h=450&fit=crop",
       "description": "Những con khủng long trở lại trong một công viên giải trí khổng lồ với những mối nguy hiểm mới.",
       "showtimes": [
-        { "id": 21, "time": "10:00", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 140000 },
-        { "id": 22, "time": "15:30", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 170000 },
-        { "id": 23, "time": "20:45", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 190000 }
+        {
+          "id": 21,
+          "time": "10:00",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 140000
+        },
+        {
+          "id": 22,
+          "time": "15:30",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 170000
+        },
+        {
+          "id": 23,
+          "time": "20:45",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 190000
+        }
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "The Flash",
       "genre": "Action, Adventure, Fantasy",
       "duration": "143 phút",
@@ -109,13 +247,31 @@
       "poster": "https://images.unsplash.com/photo-1578773232337-d24fa9205351?w=300&h=450&fit=crop",
       "description": "Barry Allen trở thành The Flash, đối mặt với các kẻ thù và một vũ trụ mới.",
       "showtimes": [
-        { "id": 24, "time": "08:30", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 120000 },
-        { "id": 25, "time": "14:00", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 150000 },
-        { "id": 26, "time": "18:30", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 170000 }
+        {
+          "id": 24,
+          "time": "08:30",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 120000
+        },
+        {
+          "id": 25,
+          "time": "14:00",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 150000
+        },
+        {
+          "id": 26,
+          "time": "18:30",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 170000
+        }
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Spider-Man: No Way Home",
       "genre": "Action, Adventure, Sci-Fi",
       "duration": "148 phút",
@@ -123,13 +279,31 @@
       "poster": "https://images.unsplash.com/photo-1631472194935-998f10fe0be3?w=300&h=450&fit=crop",
       "description": "Spider-Man đối mặt với những mối đe dọa từ các vũ trụ khác.",
       "showtimes": [
-        { "id": 27, "time": "09:30", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 140000 },
-        { "id": 28, "time": "14:45", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 170000 },
-        { "id": 29, "time": "19:30", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 200000 }
+        {
+          "id": 27,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 140000
+        },
+        {
+          "id": 28,
+          "time": "14:45",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 170000
+        },
+        {
+          "id": 29,
+          "time": "19:30",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 200000
+        }
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Doctor Strange in the Multiverse of Madness",
       "genre": "Action, Adventure, Fantasy",
       "duration": "126 phút",
@@ -137,27 +311,63 @@
       "poster": "https://images.unsplash.com/photo-1632105883992-d6e9a64e4a33?w=300&h=450&fit=crop",
       "description": "Doctor Strange bước vào thế giới đa vũ trụ để giải cứu thế giới khỏi những mối đe dọa khủng khiếp.",
       "showtimes": [
-        { "id": 30, "time": "10:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 150000 },
-        { "id": 31, "time": "15:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 180000 },
-        { "id": 32, "time": "20:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 220000 }
+        {
+          "id": 30,
+          "time": "10:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 150000
+        },
+        {
+          "id": 31,
+          "time": "15:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 180000
+        },
+        {
+          "id": 32,
+          "time": "20:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 220000
+        }
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Mission: Impossible - Fallout",
       "genre": "Action, Adventure, Thriller",
       "duration": "148 phút",
-      "rating": 8.0,
+      "rating": 8,
       "poster": "https://images.unsplash.com/photo-1532570620543-fc3f2abed10e?w=300&h=450&fit=crop",
       "description": "Ethan Hunt và nhóm phải đối mặt với những nguy hiểm lớn lao trong cuộc chiến chống lại khủng bố.",
       "showtimes": [
-        { "id": 33, "time": "09:30", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 160000 },
-        { "id": 34, "time": "14:15", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 190000 },
-        { "id": 35, "time": "18:45", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 220000 }
+        {
+          "id": 33,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 160000
+        },
+        {
+          "id": 34,
+          "time": "14:15",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 190000
+        },
+        {
+          "id": 35,
+          "time": "18:45",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 220000
+        }
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "The Hunger Games",
       "genre": "Action, Sci-Fi",
       "duration": "142 phút",
@@ -165,27 +375,63 @@
       "poster": "https://images.unsplash.com/photo-1534936946714-d2c10b5fae88?w=300&h=450&fit=crop",
       "description": "Trong một thế giới đầy bạo lực, Katniss Everdeen phải chiến đấu để sống sót trong các trò chơi chết chóc.",
       "showtimes": [
-        { "id": 36, "time": "11:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 130000 },
-        { "id": 37, "time": "15:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 160000 },
-        { "id": 38, "time": "20:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 190000 }
+        {
+          "id": 36,
+          "time": "11:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 130000
+        },
+        {
+          "id": 37,
+          "time": "15:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        },
+        {
+          "id": 38,
+          "time": "20:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 190000
+        }
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Frozen II",
       "genre": "Animation, Adventure, Family",
       "duration": "103 phút",
-      "rating": 7.0,
+      "rating": 7,
       "poster": "https://images.unsplash.com/photo-1573472134076-df0b23c432d2?w=300&h=450&fit=crop",
       "description": "Anna và Elsa tiếp tục cuộc hành trình mới để khám phá những bí ẩn trong vương quốc của họ.",
       "showtimes": [
-        { "id": 39, "time": "09:30", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 120000 },
-        { "id": 40, "time": "14:00", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 140000 },
-        { "id": 41, "time": "17:30", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 160000 }
+        {
+          "id": 39,
+          "time": "09:30",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 120000
+        },
+        {
+          "id": 40,
+          "time": "14:00",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 140000
+        },
+        {
+          "id": 41,
+          "time": "17:30",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 160000
+        }
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Shang-Chi and the Legend of the Ten Rings",
       "genre": "Action, Adventure, Fantasy",
       "duration": "132 phút",
@@ -193,13 +439,31 @@
       "poster": "https://images.unsplash.com/photo-1632253742050-c0337caeae64?w=300&h=450&fit=crop",
       "description": "Shang-Chi phải đối mặt với quá khứ của mình khi anh bị cuốn vào một tổ chức tội phạm bí mật.",
       "showtimes": [
-        { "id": 42, "time": "10:15", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 150000 },
-        { "id": 43, "time": "15:00", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 170000 },
-        { "id": 44, "time": "20:30", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 190000 }
+        {
+          "id": 42,
+          "time": "10:15",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 150000
+        },
+        {
+          "id": 43,
+          "time": "15:00",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 170000
+        },
+        {
+          "id": 44,
+          "time": "20:30",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 190000
+        }
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Jumanji: Welcome to the Jungle",
       "genre": "Action, Adventure, Comedy",
       "duration": "119 phút",
@@ -207,38 +471,100 @@
       "poster": "https://images.unsplash.com/photo-1549620364-2c4b3609fc29?w=300&h=450&fit=crop",
       "description": "Bốn người bạn bị cuốn vào trò chơi Jumanji và phải chiến đấu để sống sót trong thế giới kỳ diệu này.",
       "showtimes": [
-        { "id": 45, "time": "09:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 120000 },
-        { "id": 46, "time": "14:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 140000 },
-        { "id": 47, "time": "18:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 160000 }
+        {
+          "id": 45,
+          "time": "09:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 46,
+          "time": "14:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 140000
+        },
+        {
+          "id": 47,
+          "time": "18:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        }
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "The Lion King",
       "genre": "Animation, Adventure, Drama",
       "duration": "118 phút",
       "rating": 8.5,
       "poster": "https://images.unsplash.com/photo-1561756217-8d8fddf4d537?w=300&h=450&fit=crop",
-    "description": "Một chú sư tử trẻ phải đối mặt với thử thách lớn nhất trong cuộc đời mình để trở thành vua của Savanna.",
-    "showtimes": [
-      { "id": 48, "time": "10:00", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 130000 },
-      { "id": 49, "time": "14:30", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 150000 },
-      { "id": 50, "time": "19:00", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 180000 }
-    ]
-  },
-  {
-    "id": 17,
-    "title": "The Matrix Resurrections",
-    "genre": "Action, Sci-Fi",
-    "duration": "148 phút",
-    "rating": 6.8,
-    "poster": "https://images.unsplash.com/photo-1638310921971-df4d3c13e68e?w=300&h=450&fit=crop",
-    "description": "Neo quay lại với thế giới ảo của Matrix và đối mặt với một nhiệm vụ mới.",
-    "showtimes": [
-      { "id": 51, "time": "09:15", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 150000 },
-      { "id": 52, "time": "14:00", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 170000 },
-      { "id": 53, "time": "18:30", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 200000 }
-    ]
-  }
-]
+      "description": "Một chú sư tử trẻ phải đối mặt với thử thách lớn nhất trong cuộc đời mình để trở thành vua của Savanna.",
+      "showtimes": [
+        {
+          "id": 48,
+          "time": "10:00",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 130000
+        },
+        {
+          "id": 49,
+          "time": "14:30",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 50,
+          "time": "19:00",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "The Matrix Resurrections",
+      "genre": "Action, Sci-Fi",
+      "duration": "148 phút",
+      "rating": 6.8,
+      "poster": "https://images.unsplash.com/photo-1638310921971-df4d3c13e68e?w=300&h=450&fit=crop",
+      "description": "Neo quay lại với thế giới ảo của Matrix và đối mặt với một nhiệm vụ mới.",
+      "showtimes": [
+        {
+          "id": 51,
+          "time": "09:15",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        },
+        {
+          "id": 52,
+          "time": "14:00",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 170000
+        },
+        {
+          "id": 53,
+          "time": "18:30",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 200000
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "ab1c",
+      "username": "nghianv",
+      "password": "Nghia08@",
+      "email": "nghiavip2004kl@gmail.com"
+    }
+  ]
 }
