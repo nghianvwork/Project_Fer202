@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Register from './Auth/Register';
 import Nav from './Header/Header';
+import Login from './Auth/Login';
 function App() {
   return (
    <Router>
@@ -10,6 +11,7 @@ function App() {
        <Routes>
         
            <Route path='/signup' element={<Register/>} />
+           <Route path='/login' element={<Login/>} />
        </Routes>
 
    </Router>
