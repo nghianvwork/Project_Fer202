@@ -12,7 +12,7 @@ function Register() {
    
     let user = { username, password, email };
 
-    // Gửi POST request tới JSON Server
+
     let response = await fetch("http://localhost:9999/users", {
       method: "POST",
       headers: {
