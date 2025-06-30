@@ -7,6 +7,7 @@ import Login from './Auth/Login';
 import Home from './Home';
 import ChangePassword from './Auth/Changepassword';
 import PrivateRole from './Auth/PrivateRole';  
+import ForgotPassword from './Auth/ForgotPassword';
 
 function App() {
   return (
