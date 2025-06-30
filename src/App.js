@@ -5,6 +5,7 @@ import Register from './Auth/Register';
 import Nav from './Header/Header';
 import Login from './Auth/Login';
 import Home from './Home';
+import ChangePassword from './Auth/Changepassword';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
            <Route path='/' element={<Home />} />
            <Route path='/signup' element={<Register/>} />
            <Route path='/login' element={<Login/>} />
+           <Route path='/changepassword' element={<ChangePassword />} />
        </Routes>
 
    </Router>
