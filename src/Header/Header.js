@@ -35,6 +35,10 @@ const Header = () => {
             <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
             <a className="nav-link" onClick={() => navigate("/")}>Top phim</a>
             <a className="nav-link" onClick={() => navigate("/")}>Blog phim</a>
+            <button className="login-btn" onClick={() => navigate('/create-movie')}>
+              Thêm phim
+            </button>
+
           </nav>
 
           {/* Header Actions */}
