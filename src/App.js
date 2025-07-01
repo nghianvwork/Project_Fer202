@@ -8,7 +8,11 @@ import Home from './Home';
 import ChangePassword from './Auth/Changepassword';
 import PrivateRole from './Auth/PrivateRole';
 import ForgotPassword from './Auth/ForgotPassword';
+
+import MovieDetail from './Auth/MovieDetail';
+
 import CreateMovie from './Auth/CreateMovie';
+
 
 import HeroBanner from './Banner';
 // npx json-server --watch database.json --port 9999
@@ -19,8 +23,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/signup' element={<Register />} />
-        <Route path='/login' element={<Login />} />
+
+        <Route path="/movies/:id" element={<MovieDetail />} />
+        <Route path='/signup' element={<Register/>} />
+        <Route path='/login' element={<Login/>} />
+
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route
           path='/changepassword'
