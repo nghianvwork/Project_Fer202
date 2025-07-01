@@ -8,7 +8,7 @@ import Home from './Home';
 import ChangePassword from './Auth/Changepassword';
 import PrivateRole from './Auth/PrivateRole';  
 import ForgotPassword from './Auth/ForgotPassword';
-
+import TopFilm from './Auth/TopFilm';
 import HeroBanner from './Banner';
 // npx json-server --watch database.json --port 9999
 function App() {
@@ -29,6 +29,7 @@ function App() {
             </PrivateRole>
           } 
         />
+        <Route path="/topfilm" element={<TopFilm />} />
       </Routes>
     </Router>
   );

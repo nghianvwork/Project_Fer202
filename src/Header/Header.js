@@ -33,7 +33,7 @@ const Header = () => {
             <a className="nav-link" onClick={() => navigate("/")}>Rạp chiếu</a>
             <a className="nav-link" onClick={() => navigate("/")}>Phim chiếu</a>
             <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
-            <a className="nav-link" onClick={() => navigate("/")}>Top phim</a>
+            <a className="nav-link" onClick={() => navigate("/topfilm")}>Top phim</a>
             <a className="nav-link" onClick={() => navigate("/")}>Blog phim</a>
           </nav>
 

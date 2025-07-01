@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import HeroBanner from "./Banner";
 import Header from "./Header/Header";
+
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
   { key: "upcoming", label: "Sắp chiếu" },
