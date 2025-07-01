@@ -557,6 +557,42 @@
           "price": 200000
         }
       ]
+    },
+    {
+      "id": "6263",
+      "title": "Đại chiến Transformer",
+      "genre": "Hành động ",
+      "duration": "120 phút",
+      "rating": 9,
+      "poster": "https://www.bing.com/images/search?view=detailV2&ccid=YLZJb6TR&id=C25F7DA0E0CD4856AD6BF314743421288443EA83&thid=OIP.YLZJb6TR1aEGCKqQcExgrQHaJQ&mediaurl=https%3a%2f%2fpics.filmaffinity.com%2fTransformers_El_despertar_de_las_bestias-314641307-large.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.60b6496fa4d1d5a10608aa90704c60ad%3frik%3dg%252bpDhCghNHQU8w%26pid%3dImgRaw%26r%3d0&exph=1200&expw=960&q=transformer&simid=607996825711619426&FORM=IRPRST&ck=479E60630680D3788E3793947CC4852E&selectedIndex=3&itb=0",
+      "description": "Đại chiến giữa các robot",
+      "showtimes": [
+        {
+          "id": 1,
+          "time": "9:00",
+          "date": "2025-07-03",
+          "cinema": "CGV Vincom",
+          "price": "120000"
+        }
+      ]
+    },
+    {
+      "id": "2378",
+      "title": "Đại chiến Transformer",
+      "genre": "Hành động ",
+      "duration": "120 phút",
+      "rating": 9,
+      "poster": "https://www.bing.com/images/search?view=detailV2&ccid=YLZJb6TR&id=C25F7DA0E0CD4856AD6BF314743421288443EA83&thid=OIP.YLZJb6TR1aEGCKqQcExgrQHaJQ&mediaurl=https%3a%2f%2fpics.filmaffinity.com%2fTransformers_El_despertar_de_las_bestias-314641307-large.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.60b6496fa4d1d5a10608aa90704c60ad%3frik%3dg%252bpDhCghNHQU8w%26pid%3dImgRaw%26r%3d0&exph=1200&expw=960&q=transformer&simid=607996825711619426&FORM=IRPRST&ck=479E60630680D3788E3793947CC4852E&selectedIndex=3&itb=0",
+      "description": "Đại chiến robot",
+      "showtimes": [
+        {
+          "id": 1,
+          "time": "9:00",
+          "date": "2025-07-04",
+          "cinema": "CGV Vincom",
+          "price": "120000"
+        }
+      ]
     }
   ],
   "users": [
@@ -583,6 +619,12 @@
       "username": "nghianv8",
       "password": "Nghia@",
       "email": "baohthe186823@fpt.edu.vn"
+    },
+    {
+      "id": "c846",
+      "username": "duongphan",
+      "password": "Duong@1",
+      "email": "duong@gmail.com"
     }
   ]
 }
