@@ -9,12 +9,15 @@ import ChangePassword from './Auth/Changepassword';
 import PrivateRole from './Auth/PrivateRole';  
 import ForgotPassword from './Auth/ForgotPassword';
 
+import HeroBanner from './Banner';
+// npx json-server --watch database.json --port 9999
 function App() {
   return (
     <Router>
-      <Nav/>
+      
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/signup' element={<Register/>} />
         <Route path='/login' element={<Login/>} />
         <Route path="/forgot-password" element={<ForgotPassword />} />

@@ -335,7 +335,7 @@ function Login() {
               />
               Ghi nhớ đăng nhập
             </label>
-            <a href="#" style={styles.forgotLink}>Quên mật khẩu?</a>
+            <a href="/forgot-password" style={styles.forgotLink}>Quên mật khẩu?</a>
           </div>
           <button
             type="submit"
