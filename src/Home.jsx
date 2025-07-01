@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HeroBanner from "./Banner";
-import Header from "./Header/Header";
+import Header from "./Header/Header"
 import { Link } from "react-router-dom";
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
