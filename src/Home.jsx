@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import HeroBanner from "./Banner";
-import Header from "./Header/Header";
-
+import Header from "./Header/Header"
+import { Link } from "react-router-dom";
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
   { key: "upcoming", label: "Sắp chiếu" },
@@ -89,7 +89,7 @@ function Home() {
                 <div className="movie-poster-container">
                   <img src={movie.poster} className="movie-poster" alt={movie.title} />
                   <div className="movie-badges">
-                    {/* Nếu rating >= 8.5 là HOT, nếu sắp chiếu thì NEW */}
+                   
                     {movie.rating >= 8.5 && <span className="badge badge-hot">HOT</span>}
                     {movie.showtimes?.some(show => new Date(show.date) > new Date()) && (
                       <span className="badge badge-new">NEW</span>
@@ -99,13 +99,13 @@ function Home() {
                     <span className="rating-star">★</span>
                     <span className="rating-score">{movie.rating}</span>
                   </div>
-                  <div className="movie-overlay">
-                    <button className="btn-play">▶</button>
-                    <button className="btn-buy">Mua vé</button>
-                  </div>
+                  
                 </div>
                 <div className="movie-info">
-                  <h3 className="movie-title">{movie.title}</h3>
+                  <Link to={`/movies/${movie.id}`}>
+                
+                      <h3>{movie.title}</h3>
+                      </Link>
                   <p>{movie.genre}</p>
                   <p>{movie.duration}</p>
                 </div>

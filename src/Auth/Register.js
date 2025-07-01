@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { User, Lock, Mail, Film } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import "./Register.css"; // import file CSS mới
+import "./Register.css"; 
 
 function Register() {
   const [username, setUsername] = useState("");
