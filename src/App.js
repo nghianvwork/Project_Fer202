@@ -5,18 +5,29 @@ import Register from './Auth/Register';
 import Nav from './Header/Header';
 import Login from './Auth/Login';
 import Home from './Home';
+// import ChangePassword from './Auth/Changepassword';
+// import PrivateRole from './Auth/PrivateRole';  
+// import ForgotPassword from './Auth/ForgotPassword';
 
 function App() {
   return (
-   <Router>
-    <Nav/>
-       <Routes>
-           <Route path='/' element={<Home />} />
-           <Route path='/signup' element={<Register/>} />
-           <Route path='/login' element={<Login/>} />
-       </Routes>
-
-   </Router>
+    <Router>
+      <Nav/>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/signup' element={<Register/>} />
+        <Route path='/login' element={<Login/>} />
+        {/* <Route path="/forgot-password" element={<ForgotPassword />} /> */}
+        {/* <Route 
+          // path='/changepassword' 
+          element={
+            <PrivateRole>
+              <ChangePassword />
+            </PrivateRole>
+          } 
+        /> */}
+      </Routes>
+    </Router>
   );
 }
 

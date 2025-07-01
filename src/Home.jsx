@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import HeroBanner from "./Header/Banner";
 
 const TABS = [
-  { key: "showing", label: "PHIM ĐANG CHIẾU" },
-  { key: "upcoming", label: "PHIM SẮP CHIẾU" },
-  { key: "special", label: "SUẤT CHIẾU ĐẶC BIỆT" }
+  { key: "showing", label: "Đang chiếu" },
+  { key: "upcoming", label: "Sắp chiếu" },
+  { key: "imax", label: "Phim IMAX" },
+  { key: "nationwide", label: "Toàn quốc" }
 ];
 
 function Home() {
@@ -22,62 +24,96 @@ function Home() {
   }, []);
 
   // Phân loại phim theo tab (giả lập, bạn phân loại thật bằng trường trong DB)
-  const filteredMovies =
-    tab === "showing"
-      ? movies.slice(0, 8) // Ví dụ phim đang chiếu
-      : tab === "upcoming"
-      ? movies.slice(8, 12) // Ví dụ phim sắp chiếu
-      : movies.slice(12, 16); // Suất chiếu đặc biệt
+  const filteredMovies = movies.filter(movie => {
+    if (tab === "showing") {
+      // Phim có lịch chiếu <= hôm nay
+      const today = new Date();
+      return movie.showtimes?.some(show =>
+        new Date(show.date) <= today
+      );
+    }
+    if (tab === "upcoming") {
+      // Phim có lịch chiếu > hôm nay
+      const today = new Date();
+      return movie.showtimes?.some(show =>
+        new Date(show.date) > today
+      );
+    }
+    if (tab === "imax") {
+      // Phim có rating >= 8.5 tạm coi là IMAX
+      return movie.rating >= 8.5;
+    }
+    if (tab === "nationwide") {
+      return true;
+    }
+    return true;
+  });
 
-  if (loading) return <div className="text-center mt-5">Đang tải phim...</div>;
+  if (loading) {
+    return (
+      <div className="loading-container">
+        <div className="loading-spinner"></div>
+        <p>Đang tải phim...</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="container py-4">
-      {/* Tabs */}
-      <div className="d-flex justify-content-center align-items-center mb-4 movie-tabs">
-        {TABS.map((t) => (
-          <div
-            key={t.key}
-            className={`movie-tab px-4 py-2 mx-1 ${tab === t.key ? "active" : ""}`}
-            onClick={() => setTab(t.key)}
-          >
-            {t.label}
-          </div>
-        ))}
-      </div>
-      <hr style={{ marginTop: -10, marginBottom: 30 }} />
-
-      {/* Grid phim */}
-      <div className="row g-4">
-        {filteredMovies.map((movie) => (
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={movie.id}>
-            <div className="movie-card-home shadow-sm h-100">
-              {/* Badge HOT, T18, T16 */}
-              <div className="movie-badges">
-                {/* <span className="badge-age">T18</span> */}
-                <span className="badge-hot">HOT</span>
-              </div>
-              {/* Poster */}
-              <div className="movie-card-poster-wrapper">
-                <img src={movie.poster} className="movie-card-poster" alt={movie.title} />
-              </div>
-              {/* Info */}
-              <div className="movie-card-info px-3 pb-3 pt-2">
-                <h6 className="fw-bold movie-card-title">{movie.title}</h6>
-                <div className="text-dark movie-card-meta mb-2" style={{ fontSize: "1rem" }}>
-                  <span className="fw-bold">Thể loại:</span> {movie.genre}
-                  <br />
-                  <span className="fw-bold">Thời lượng:</span> {movie.duration}
-                </div>
-                <button className="btn-muave mt-2 w-100">
-                  MUA VÉ
+    <div className="galaxy-cinema">
+      {/* HEADER GIỮ HOẶC BỎ TÙY Ý */}
+      <HeroBanner />
+      {/* Movie Tabs */}
+      <div className="container">
+        <div className="movie-section">
+          <div className="section-header">
+            <h2>PHIM</h2>
+            <div className="tab-navigation">
+              {TABS.map((t) => (
+                <button
+                  key={t.key}
+                  className={`tab-btn ${tab === t.key ? "active" : ""}`}
+                  onClick={() => setTab(t.key)}
+                >
+                  {t.label}
                 </button>
-              </div>
+              ))}
             </div>
           </div>
-        ))}
+
+          {/* Movie Grid */}
+          <div className="movie-grid">
+            {filteredMovies.map((movie) => (
+              <div className="movie-card" key={movie.id}>
+                <div className="movie-poster-container">
+                  <img src={movie.poster} className="movie-poster" alt={movie.title} />
+                  <div className="movie-badges">
+                    {/* Nếu rating >= 8.5 là HOT, nếu sắp chiếu thì NEW */}
+                    {movie.rating >= 8.5 && <span className="badge badge-hot">HOT</span>}
+                    {movie.showtimes?.some(show => new Date(show.date) > new Date()) && (
+                      <span className="badge badge-new">NEW</span>
+                    )}
+                  </div>
+                  <div className="movie-rating">
+                    <span className="rating-star">★</span>
+                    <span className="rating-score">{movie.rating}</span>
+                  </div>
+                  <div className="movie-overlay">
+                    <button className="btn-play">▶</button>
+                    <button className="btn-buy">Mua vé</button>
+                  </div>
+                </div>
+                <div className="movie-info">
+                  <h3 className="movie-title">{movie.title}</h3>
+                  <p>{movie.genre}</p>
+                  <p>{movie.duration}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+
 export default Home;
