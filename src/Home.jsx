@@ -108,6 +108,7 @@ function Home() {
                       </Link>
                   <p>{movie.genre}</p>
                   <p>{movie.duration}</p>
+                 
                 </div>
               </div>
             ))}
