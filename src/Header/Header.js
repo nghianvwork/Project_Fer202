@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -15,6 +15,39 @@ const Header = () => {
   const handleSignup = () => navigate("/signup");
   const handleChangePassword = () => navigate("/changepassword");
 
+  const [cinemas, setCinemas] = useState([]);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef();
+
+  useEffect(() => {
+    fetch("http://localhost:9999/moviesData")
+      .then((res) => res.json())
+      .then((data) => {
+        const cinemaSet = new Set();
+        data.forEach(movie => {
+          movie.showtimes?.forEach(show => {
+            cinemaSet.add(show.cinema);
+          });
+        });
+        setCinemas([...cinemaSet]);
+      });
+  }, []);
+
+  // Đóng dropdown khi click ra ngoài
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowDropdown(false);
+      }
+    };
+    if (showDropdown) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [showDropdown]);
+
   return (
     <header className="cinema-header">
       <div className="container">
@@ -30,7 +63,58 @@ const Header = () => {
           {/* Main Nav */}
           <nav className="main-nav">
             <a className="nav-link" onClick={() => navigate("/")}>Lịch chiếu</a>
-            <a className="nav-link" onClick={() => navigate("/")}>Rạp chiếu</a>
+            <div
+              className="nav-link dropdown-cinema"
+              ref={dropdownRef}
+              tabIndex={0}
+              onMouseEnter={() => setShowDropdown(true)}
+              onMouseLeave={() => setShowDropdown(false)}
+              onClick={() => setShowDropdown(v => !v)}
+              style={{ position: "relative", userSelect: "none", paddingBottom: 0, marginBottom: 0 }}
+            >
+              Rạp chiếu <span style={{ fontSize: 12, marginLeft: 4 }}>▼</span>
+              <div
+                className="dropdown-menu-cinema"
+                style={{
+                  display: showDropdown ? "block" : "none",
+                  position: "absolute",
+                  top: "calc(100% + 2px)", // Chỉ cách menu 2px!
+                  left: 0,
+                  background: "#fff",
+                  minWidth: 220,
+                  boxShadow: "0 8px 32px 0 rgba(31,38,135,0.18)",
+                  borderRadius: 16,
+                  zIndex: 20,
+                  padding: "8px 0",
+                  color: "#222",
+                  fontSize: 16,
+                  margin: 0
+                }}
+                onMouseEnter={() => setShowDropdown(true)}
+                onMouseLeave={() => setShowDropdown(false)}
+              >
+                {cinemas.map((cinema) => (
+                  <div
+                    key={cinema}
+                    className="dropdown-item-cinema"
+                    style={{
+                      padding: "12px 24px",
+                      cursor: "pointer",
+                      transition: "background 0.2s",
+                      whiteSpace: "nowrap",
+                      borderRadius: 8,
+                      margin: "0 8px"
+                    }}
+                    onClick={() => {
+                      setShowDropdown(false);
+                      navigate(`/cinema/${cinema.replace(/\s+/g, "-").toLowerCase()}`);
+                    }}
+                  >
+                    {cinema}
+                  </div>
+                ))}
+              </div>
+            </div>
             <a className="nav-link" onClick={() => navigate("/")}>Phim chiếu</a>
             <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
             <a className="nav-link" onClick={() => navigate("/topfilm")}>Top phim</a>
