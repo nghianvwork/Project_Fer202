@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Header from "../Header/Header"
 
 function CinemaDetail() {
   const { cinemaName } = useParams(); // ví dụ: cgv-vincom
@@ -30,7 +31,8 @@ function CinemaDetail() {
   if (loading) return <div style={{padding:40}}>Đang tải dữ liệu...</div>;
 
   return (
-    <div style={{padding:40, minHeight: '50vh', background: "#f9f8ff"}}>
+    <div><Header/>
+      <div style={{padding:40, minHeight: '50vh', background: "#f9f8ff"}}>
       <h2 style={{marginBottom:24, color:'#ff6b35'}}>
         RẠP: {cinemaName.replace(/-/g, " ").toUpperCase()}
       </h2>
@@ -83,6 +85,7 @@ function CinemaDetail() {
           ))}
         </div>
       )}
+      </div>
     </div>
   );
 }

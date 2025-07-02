@@ -13,7 +13,7 @@ function HeroBanner() {
       });
   }, []);
 
-  // Auto chuyển slide mỗi 5s
+  
   useEffect(() => {
     if (topMovies.length === 0) return;
     const timer = setInterval(() => {

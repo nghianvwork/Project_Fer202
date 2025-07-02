@@ -1,9 +1,20 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
+  // Check user login
   const user = JSON.parse(localStorage.getItem("user-info") || sessionStorage.getItem("user-info") || "null");
+
+  const handleLogin = () => navigate("/login");
+  const handleLogout = () => {
+    localStorage.removeItem("user-info");
+    sessionStorage.removeItem("user-info");
+    navigate("/");
+  };
+  const handleSignup = () => navigate("/signup");
+  const handleChangePassword = () => navigate("/changepassword");
+
   const [cinemas, setCinemas] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef();
@@ -37,27 +48,21 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [showDropdown]);
 
-  const handleLogin = () => navigate("/login");
-  const handleLogout = () => {
-    localStorage.removeItem("user-info");
-    sessionStorage.removeItem("user-info");
-    navigate("/login");
-  };
-  const handleSignup = () => navigate("/signup");
-  const handleChangePassword = () => navigate("/changepassword");
-
   return (
     <header className="cinema-header">
       <div className="container">
         <div className="header-content">
           {/* Logo */}
           <div className="logo" style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-            <img src="/Logo_cinema.jpg" alt="Galaxy Cinema" />
+            <img
+              src="/Logo_cinema.jpg"
+              alt="Galaxy Cinema"
+            />
           </div>
 
           {/* Main Nav */}
           <nav className="main-nav">
-            {/* Dropdown Rạp chiếu */}
+            <a className="nav-link" onClick={() => navigate("/")}>Lịch chiếu</a>
             <div
               className="nav-link dropdown-cinema"
               ref={dropdownRef}
@@ -110,11 +115,14 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <a className="nav-link" style={{paddingBottom:0, marginBottom:0}} onClick={() => navigate("/")}>Lịch chiếu</a>
-            <a className="nav-link" style={{paddingBottom:0, marginBottom:0}} onClick={() => navigate("/")}>Phim chiếu</a>
-            <a className="nav-link" style={{paddingBottom:0, marginBottom:0}} onClick={() => navigate("/")}>Review phim</a>
-            <a className="nav-link" style={{paddingBottom:0, marginBottom:0}} onClick={() => navigate("/")}>Top phim</a>
-            <a className="nav-link" style={{paddingBottom:0, marginBottom:0}} onClick={() => navigate("/")}>Blog phim</a>
+            <a className="nav-link" onClick={() => navigate("/")}>Phim chiếu</a>
+            <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
+            <a className="nav-link" onClick={() => navigate("/topfilm")}>Top phim</a>
+            <a className="nav-link" onClick={() => navigate("/")}>Blog phim</a>
+            <button className="login-btn" onClick={() => navigate('/create-movie')}>
+              Thêm phim
+            </button>
+
           </nav>
 
           {/* Header Actions */}
@@ -122,43 +130,39 @@ const Header = () => {
             <button className="search-btn" title="Tìm kiếm"><span role="img" aria-label="search">🔍</span></button>
             {!user ? (
               <>
-                <button className="login-btn" onClick={handleLogin}>Đăng Nhập</button>
-                <button className="login-btn" onClick={handleSignup}>Đăng Ký</button>
+             
+                {/* <button className="login-btn" onClick={handleLogin}>Đăng Nhập</button>
+                <button className="login-btn" onClick={handleSignup}>Đăng Ký</button> */}
+              <div className="member-badge">
+                <Link to={"/login"}>
+                Đăng nhập
+                </Link>
+              </div>
+              <div className="member-badge">
+                <Link to={"/register"}>
+                Đăng kí
+                </Link>
+              </div>
+                
               </>
             ) : (
               <>
-                <button className="login-btn" onClick={handleChangePassword}>Đổi MK</button>
-                <button className="login-btn" onClick={handleLogout}>Đăng Xuất</button>
-                <div className="member-badge">G STAR</div>
+               
+                <div className="member-badge">
+                <Link to={"/login"}>
+                Đăng xuất
+                </Link>
+              </div>
+                <div className="member-badge">
+                  <Link to={"/profile"}>
+                    User
+                  </Link>
+                </div>
               </>
             )}
           </div>
         </div>
       </div>
-      {/* Style riêng cho dropdown sát menu */}
-      <style>{`
-        .dropdown-cinema {
-          position: relative;
-          padding-bottom: 0 !important;
-          margin-bottom: 0 !important;
-        }
-        .dropdown-menu-cinema {
-          position: absolute;
-          top: calc(100% + 2px) !important;
-          left: 0;
-          border-radius: 16px;
-          background: #fff;
-          box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
-          min-width: 220px;
-          padding: 8px 0;
-          margin: 0;
-          z-index: 20;
-        }
-        .dropdown-item-cinema:hover {
-          background: #ffe8dc;
-          color: #ff6b35;
-        }
-      `}</style>
     </header>
   );
 };
