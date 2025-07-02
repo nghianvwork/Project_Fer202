@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   // Check user login
@@ -10,7 +10,7 @@ const Header = () => {
   const handleLogout = () => {
     localStorage.removeItem("user-info");
     sessionStorage.removeItem("user-info");
-    navigate("/login");
+    navigate("/");
   };
   const handleSignup = () => navigate("/signup");
   const handleChangePassword = () => navigate("/changepassword");
@@ -46,14 +46,34 @@ const Header = () => {
             <button className="search-btn" title="Tìm kiếm"><span role="img" aria-label="search">🔍</span></button>
             {!user ? (
               <>
-                <button className="login-btn" onClick={handleLogin}>Đăng Nhập</button>
-                <button className="login-btn" onClick={handleSignup}>Đăng Ký</button>
+             
+                {/* <button className="login-btn" onClick={handleLogin}>Đăng Nhập</button>
+                <button className="login-btn" onClick={handleSignup}>Đăng Ký</button> */}
+              <div className="member-badge">
+                <Link to={"/login"}>
+                Đăng nhập
+                </Link>
+              </div>
+              <div className="member-badge">
+                <Link to={"/register"}>
+                Đăng kí
+                </Link>
+              </div>
+                
               </>
             ) : (
               <>
-                <button className="login-btn" onClick={handleChangePassword}>Đổi MK</button>
-                <button className="login-btn" onClick={handleLogout}>Đăng Xuất</button>
-                <div className="member-badge">G STAR</div>
+               
+                <div className="member-badge">
+                <Link to={"/login"}>
+                Đăng xuất
+                </Link>
+              </div>
+                <div className="member-badge">
+                  <Link to={"/profile"}>
+                    User
+                  </Link>
+                </div>
               </>
             )}
           </div>
