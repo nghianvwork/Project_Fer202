@@ -626,5 +626,106 @@
       "password": "Duong@1",
       "email": "duong@gmail.com"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user": "Minh Anh",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5bb17e1?w=40&h=40&fit=crop&crop=face",
+      "comment": "Phim hay quá! Đặc biệt là phần hành động, rất hấp dẫn và kịch tính.",
+      "movie": "Top Gun: Maverick",
+      "likes": 24,
+      "time": "2 giờ trước"
+    },
+    {
+      "id": 2,
+      "user": "Hoàng Nam",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",
+      "comment": "Avatar phần 2 thật sự tuyệt vời! Hình ảnh đẹp mắt, câu chuyện cảm động.",
+      "movie": "Avatar: The Way of Water",
+      "likes": 18,
+      "time": "1 giờ trước"
+    },
+    {
+      "id": 3,
+      "user": "Lan Hương",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face",
+      "comment": "Despicable Me 4 siêu dễ thương! Cười đau bụng luôn 😂",
+      "movie": "Despicable Me 4",
+      "likes": 30,
+      "time": "30 phút trước"
+    },
+    {
+      "id": 4,
+      "user": "Trung Kiên",
+      "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=40&h=40&fit=crop&crop=face",
+      "comment": "Deadpool & Wolverine đúng chất Marvel, hài và hành động không chê được!",
+      "movie": "Deadpool & Wolverine",
+      "likes": 45,
+      "time": "15 phút trước"
+    },
+    {
+      "id": 5,
+      "user": "Thu Trang",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face",
+      "comment": "Inside Out 2 cực kỳ cảm động, đưa cả gia đình đi xem ai cũng thích!",
+      "movie": "Inside Out 2",
+      "likes": 35,
+      "time": "5 phút trước"
+    }
+  ],
+
+
+
+
+  "nowShowing": [
+    {
+      "id": 1,
+      "title": "Inside Out 2",
+      "poster": "https://m.media-amazon.com/images/I/91nI2zdh9yL._AC_SL1500_.jpg",
+      "genre": "Hoạt hình, Hài hước",
+      "rating": 8.1,
+      "duration": "100 phút"
+    },
+    {
+      "id": 2,
+      "title": "Deadpool & Wolverine",
+      "poster": "https://m.media-amazon.com/images/I/81QxKx8UQkL._AC_SL1500_.jpg",
+      "genre": "Hành động, Hài",
+      "rating": 8.5,
+      "duration": "130 phút"
+    },
+    {
+      "id": 3,
+      "title": "Despicable Me 4",
+      "poster": "https://m.media-amazon.com/images/I/81xsT5-KrhL._AC_SL1500_.jpg",
+      "genre": "Hoạt hình, Phiêu lưu",
+      "rating": 7.6,
+      "duration": "95 phút"
+    },
+    {
+      "id": 4,
+      "title": "The Batman",
+      "poster": "https://m.media-amazon.com/images/I/81be8fdgSIL._AC_SL1500_.jpg",
+      "genre": "Hành động, Hình sự",
+      "rating": 8.2,
+      "duration": "176 phút"
+    },
+    {
+      "id": 5,
+      "title": "Fast X",
+      "poster": "https://m.media-amazon.com/images/I/91XQ9Y0aZfL._AC_SL1500_.jpg",
+      "genre": "Hành động, Phiêu lưu",
+      "rating": 7.0,
+      "duration": "140 phút"
+    },
+    {
+      "id": 6,
+      "title": "Oppenheimer",
+      "poster": "https://m.media-amazon.com/images/I/71nIfMJgFGL._AC_SL1500_.jpg",
+      "genre": "Tiểu sử, Chính kịch",
+      "rating": 8.8,
+      "duration": "180 phút"
+    }
   ]
 }
