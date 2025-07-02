@@ -12,6 +12,7 @@ import TopFilm from './Auth/TopFilm';
 import MovieDetail from './Auth/MovieDetail';
 import CreateMovie from './Auth/CreateMovie';
 import HeroBanner from './Banner';
+import Profile from './Auth/Profile';
 // npx json-server --watch database.json --port 9999
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-
+        <Route path='/profile' element={<Profile/>}/>
         <Route path="/movies/:id" element={<MovieDetail />} />
         <Route path='/signup' element={<Register/>} />
         <Route path='/login' element={<Login/>} />

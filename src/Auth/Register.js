@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { User, Lock, Mail, Film } from "lucide-react";
+import { User, Lock, Mail, Film, Phone } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import "./Register.css"; 
 
@@ -7,6 +7,9 @@ function Register() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  const [firstname, setFirstname] = useState("");
+   const [lastname, setLastname] = useState("");
+    const [phone, setPhone] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -14,7 +17,7 @@ function Register() {
     e.preventDefault();
     setIsLoading(true);
 
-    let user = { username, password, email };
+    let user = { username, password, email, firstname,lastname,phone };
 
     let response = await fetch("http://localhost:9999/users", {
       method: "POST",
@@ -96,6 +99,58 @@ function Register() {
                 required
               />
             </div>
+            
+          </div>
+           <div className="form-group">
+            <label className="form-label">Firstname</label>
+            <div className="input-wrapper">
+              <div className="input-icon">
+                <User size={20} />
+              </div>
+              <input
+                type="firstname"
+                value={firstname}
+                onChange={(e) => setFirstname(e.target.value)}
+                placeholder="Nhập firstname"
+                className="form-input"
+                required
+              />
+            </div>
+            
+          </div>
+           <div className="form-group">
+            <label className="form-label">Lastname</label>
+            <div className="input-wrapper">
+              <div className="input-icon">
+                <User size={20} />
+              </div>
+              <input
+                type="Lastname"
+                value={lastname}
+                onChange={(e) => setLastname(e.target.value)}
+                placeholder="Nhập lastname"
+                className="form-input"
+                required
+              />
+            </div>
+            
+          </div>
+           <div className="form-group">
+            <label className="form-label">Phone</label>
+            <div className="input-wrapper">
+              <div className="input-icon">
+                <Phone size={20} />
+              </div>
+              <input
+                type="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                placeholder="Nhập phone"
+                className="form-input"
+                required
+              />
+            </div>
+            
           </div>
           <button
             type="submit"

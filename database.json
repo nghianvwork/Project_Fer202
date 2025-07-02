@@ -596,35 +596,16 @@
     }
   ],
   "users": [
+    
+     
     {
-      "id": "ab1c",
+      "id": "ff26",
       "username": "nghianv",
       "password": "Nghia08@",
-      "email": "nghiavip2004kl@gmail.com"
-    },
-    {
-      "id": "2b72",
-      "username": "tbao267",
-      "password": "Baobao123@",
-      "email": "baohthe186823@fpt.edu.vn"
-    },
-    {
-      "id": "b99f",
-      "username": "duyanh",
-      "password": "DuyAnh1@",
-      "email": "he180587hoangduyanh@gmail.com"
-    },
-    {
-      "id": "21f2",
-      "username": "nghianv8",
-      "password": "Nghia@",
-      "email": "baohthe186823@fpt.edu.vn"
-    },
-    {
-      "id": "c846",
-      "username": "duongphan",
-      "password": "Duong@1",
-      "email": "duong@gmail.com"
+      "email": "he180712nguyenvannghia@gmail.com",
+      "firstname": "Nguyen Van",
+      "lastname": "Nghia",
+      "phone": "0346492902"
     }
   ]
 }
