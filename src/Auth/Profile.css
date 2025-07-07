@@ -54,3 +54,28 @@
 .profile-btn:hover {
   background: #ff944d;
 }
+.profile-info input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f7f7fa;
+  color: #222;
+  transition: border 0.2s;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.profile-info input:focus {
+  border: 1.5px solid #ff6b35;
+  background: #fff;
+}
+.profile-info .input-row {
+  display: flex;
+  gap: 12px;
+}
+.profile-info .input-row input {
+  flex: 1;
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import "./MovieDetail.css"
 import Header from '../Header/Header';
+import Comments from './Comments';
 const MovieDetail = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
@@ -52,9 +53,11 @@ const MovieDetail = () => {
           ) : (
             <p>Chưa có lịch chiếu</p>
           )}
+        
           <Link to="/" className="btn-back">← Quay lại danh sách phim</Link>
         </div>
       </div>
+        <Comments movieTitle={movie.title} />
     </div>
     </div>
     
