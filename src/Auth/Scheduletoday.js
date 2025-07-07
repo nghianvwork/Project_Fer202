@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight, Play, Star, Clock, MessageCircle, Heart, Share } from 'lucide-react';
 import Header from '../Header/Header';
 
@@ -7,6 +8,7 @@ const ScheduleToday = () => {
   const [comments, setComments] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -190,6 +192,27 @@ const ScheduleToday = () => {
                             <span>{movie.duration}</span>
                           </div>
                         </div>
+                        {/* Nút Đặt vé */}
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            navigate(`/moviebooking/${movie.id}`);
+                          }}
+                          style={{
+                            marginTop: 12,
+                            width: "100%",
+                            padding: "10px",
+                            background: "linear-gradient(45deg, #ef4444, #dc2626)",
+                            border: "none",
+                            borderRadius: "8px",
+                            color: "#fff",
+                            cursor: "pointer",
+                            fontWeight: 600,
+                            fontSize: 16
+                          }}
+                        >
+                          Đặt vé
+                        </button>
                       </div>
                     </div>
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Star, Clock, Filter, Search, Ticket } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
 
 const NowShowing = () => {
@@ -7,6 +8,7 @@ const NowShowing = () => {
   const [loading, setLoading] = useState(true);
   const [selectedGenre, setSelectedGenre] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchNowShowing = async () => {
@@ -15,10 +17,9 @@ const NowShowing = () => {
         if (!response.ok) throw new Error("Lỗi khi lấy phim đang chiếu");
         const data = await response.json();
         setMovies(data);
-        setLoading(false);
-        setLoading(false);
       } catch (error) {
         console.error(error);
+      } finally {
         setLoading(false);
       }
     };
@@ -203,6 +204,7 @@ const NowShowing = () => {
                     color: "#fff",
                     cursor: "pointer",
                   }}
+                  onClick={() => navigate(`/moviebooking/${movie.id}`)} // Đây là điểm quan trọng!
                 >
                   <Ticket size={16} style={{ marginRight: "6px" }} />
                   Đặt vé
