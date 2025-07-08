@@ -13,10 +13,8 @@ import MovieDetail from './Auth/MovieDetail';
 import CreateMovie from './Auth/CreateMovie';
 import HeroBanner from './Banner';
 import Profile from './Auth/Profile';
-<<<<<<< HEAD
-=======
+
 import CinemaDetail from './Component/CinemaDetail';
->>>>>>> sangnv
 // npx json-server --watch database.json --port 9999
 function App() {
   return (
