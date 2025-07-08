@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Star, Clock, ArrowLeft, MapPin, CreditCard, User, Phone, Mail, CheckCircle, XCircle } from "lucide-react";
-import { QRCodeCanvas } from "qrcode.react";
 
 const combos = [
   { id: 1, name: "Bắp ngọt nhỏ + nước ngọt", price: 49000 },
@@ -9,6 +8,13 @@ const combos = [
   { id: 3, name: "Nước ngọt lớn", price: 35000 },
   { id: 4, name: "Combo 2 bắp + 2 nước", price: 99000 },
 ];
+
+const getSeatZone = (row) => {
+  if (['D', 'E', 'F', 'G'].includes(row)) return { zone: 'vip', price: 120000, color: '#ef4444' };     // Đỏ (VIP)
+  if (['B', 'C', 'H'].includes(row))      return { zone: 'regular', price: 80000, color: '#a78bfa' };  // Tím (Thường)
+  if (['A', 'S'].includes(row))           return { zone: 'cheap', price: 50000, color: '#f472b6' };    // Hồng (Rẻ)
+  return { zone: 'regular', price: 80000, color: '#a78bfa' };
+};
 
 const BookingMovie = () => {
   const { id } = useParams();
@@ -25,8 +31,8 @@ const BookingMovie = () => {
   const [success, setSuccess] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState('');
   const [paymentStatus, setPaymentStatus] = useState('');
+  const [seatError, setSeatError] = useState('');
 
-  // Lấy dữ liệu phim từ API động
   useEffect(() => {
     setLoading(true);
     fetch(`http://localhost:9999/moviesData/${id}`)
@@ -41,7 +47,6 @@ const BookingMovie = () => {
       .catch(() => setLoading(false));
   }, [id]);
 
-  // Hiển thị 7 ngày tiếp theo từ hôm nay
   const generateDates = () => {
     const dates = [];
     for (let i = 0; i < 7; i++) {
@@ -59,17 +64,22 @@ const BookingMovie = () => {
     return dates;
   };
 
-  // Sinh danh sách ghế (giả lập)
   const generateSeats = () => {
-    const rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-    const seatsPerRow = 10;
+    const rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'S'];
+    const seatsPerRow = 18;
     const seats = [];
     const occupiedSeats = ['A3', 'A4', 'B5', 'C7', 'D2', 'D8', 'E6', 'F4', 'F5'];
     rows.forEach(row => {
       for (let i = 1; i <= seatsPerRow; i++) {
         const seatId = `${row}${i}`;
+        const { zone, price, color } = getSeatZone(row);
         seats.push({
           id: seatId,
+          row,
+          col: i,
+          zone,
+          price,
+          color,
           occupied: occupiedSeats.includes(seatId),
           selected: selectedSeats.includes(seatId)
         });
@@ -78,12 +88,43 @@ const BookingMovie = () => {
     return seats;
   };
 
-  const handleSeatClick = (seatId) => {
-    if (selectedSeats.includes(seatId)) {
-      setSelectedSeats(selectedSeats.filter(id => id !== seatId));
-    } else {
-      setSelectedSeats([...selectedSeats, seatId]);
+  const seatsList = generateSeats();
+
+  // Validate ghế phải liền kề (trên cùng một hàng, số ghế liên tiếp)
+  const validateSeatsAdjacent = (seatIds) => {
+    if (seatIds.length <= 1) return true;
+    const seatsByRow = seatIds.reduce((acc, id) => {
+      const row = id[0];
+      const col = parseInt(id.slice(1), 10);
+      if (!acc[row]) acc[row] = [];
+      acc[row].push(col);
+      return acc;
+    }, {});
+    if (Object.keys(seatsByRow).length !== 1) return false;
+    const cols = seatsByRow[Object.keys(seatsByRow)[0]].sort((a, b) => a - b);
+    for (let i = 1; i < cols.length; i++) {
+      if (cols[i] !== cols[i - 1] + 1) return false;
     }
+    return true;
+  };
+
+  const handleSeatClick = (seatId) => {
+    const seat = seatsList.find(s => s.id === seatId);
+    if (!seat || seat.occupied) return;
+    let newSeats;
+    if (selectedSeats.includes(seatId)) {
+      newSeats = selectedSeats.filter(id => id !== seatId);
+    } else {
+      newSeats = [...selectedSeats, seatId];
+    }
+    setSelectedSeats(newSeats);
+    setTimeout(() => {
+      if (!validateSeatsAdjacent(newSeats)) {
+        setSeatError('Bạn chỉ được chọn các ghế liền kề trên cùng một hàng!');
+      } else {
+        setSeatError('');
+      }
+    }, 0);
   };
 
   const formatCurrency = (amount) => {
@@ -93,56 +134,35 @@ const BookingMovie = () => {
     }).format(amount);
   };
 
-  // Tổng tiền vé
-  const totalTicket = selectedSeats.length * (selectedShowtime?.price || 0);
-  // Tổng tiền combo
+  const totalTicket = seatsList.filter(seat => selectedSeats.includes(seat.id)).reduce((sum, seat) => sum + seat.price, 0);
   const totalCombo = combos.filter(c => selectedCombos.includes(c.id)).reduce((a, b) => a + b.price, 0);
-  // Tổng tất cả
   const totalAmount = totalTicket + totalCombo;
 
-  // ---- Step navigation
-  // Số bước: 1: suất chiếu, 2: ghế, 3: combo, 4: info, 5: thanh toán
   const handleNextStep = () => {
+    if (currentStep === 2 && !validateSeatsAdjacent(selectedSeats)) {
+      setSeatError('Bạn chỉ được chọn các ghế liền kề trên cùng một hàng!');
+      return;
+    }
+    setSeatError('');
     if (currentStep < 5) setCurrentStep(currentStep + 1);
   };
 
   const handlePrevStep = () => {
+    setSeatError('');
     if (currentStep > 1) setCurrentStep(currentStep - 1);
   };
 
   const canProceed = () => {
     switch (currentStep) {
       case 1: return selectedDate && selectedShowtime !== null;
-      case 2: return selectedSeats.length > 0;
-       case 3: return true; 
-      // Step combo: luôn cho qua, không validation
+      case 2: return selectedSeats.length > 0 && seatError === '';
+      case 3: return true;
       case 4: return customerInfo.name && customerInfo.phone && customerInfo.email;
       case 5: return paymentMethod !== '';
       default: return false;
     }
   };
 
-  // Tạo URL thanh toán VNPay
-  const createVNPayUrl = () => {
-    const vnpayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    const params = new URLSearchParams({
-      vnp_Version: "2.1.0",
-      vnp_Command: "pay",
-      vnp_TmnCode: "DEMO123",
-      vnp_Amount: (totalAmount * 100).toString(),
-      vnp_CurrCode: "VND",
-      vnp_TxnRef: `TICKET_${Date.now()}`,
-      vnp_OrderInfo: `Dat ve xem phim ${selectedMovie?.title}`,
-      vnp_OrderType: "other",
-      vnp_Locale: "vn",
-      vnp_ReturnUrl: window.location.origin + "/payment-result",
-      vnp_IpAddr: "127.0.0.1",
-      vnp_CreateDate: new Date().toISOString().replace(/[-:]/g, '').split('.')[0]
-    });
-    return `${vnpayUrl}?${params.toString()}`;
-  };
-
-  // Xử lý thanh toán
   const handleVNPayPayment = () => {
     setPaymentStatus('processing');
     setTimeout(() => {
@@ -153,12 +173,10 @@ const BookingMovie = () => {
       }
     }, 3000);
   };
-
   const handleCounterPayment = () => {
     setPaymentStatus('counter');
     setTimeout(() => handleBookingSuccess(), 1500);
   };
-
   const handleBookingSuccess = () => {
     setSuccess(true);
     setTimeout(() => {
@@ -166,7 +184,7 @@ const BookingMovie = () => {
     }, 3000);
   };
 
-  // UI step
+  // ===== UI
   const renderStepIndicator = () => (
     <div style={{
       display: 'flex',
@@ -257,7 +275,6 @@ const BookingMovie = () => {
   const renderShowtimeSelection = () => (
     <div>
       <h3 style={{ fontSize: '20px', marginBottom: '16px' }}>Chọn ngày và suất chiếu</h3>
-      {/* Chọn ngày */}
       <div style={{ marginBottom: '24px' }}>
         <h4 style={{ fontSize: '16px', marginBottom: '12px' }}>Chọn ngày:</h4>
         <div style={{
@@ -290,7 +307,6 @@ const BookingMovie = () => {
           ))}
         </div>
       </div>
-      {/* Chọn suất chiếu */}
       {selectedDate && (
         <div>
           <h4 style={{ fontSize: '16px', marginBottom: '12px' }}>Chọn suất chiếu:</h4>
@@ -324,9 +340,6 @@ const BookingMovie = () => {
                       <MapPin size={16} />
                       <span>{showtime.cinema}</span>
                     </div>
-                    <div style={{ fontSize: '18px', fontWeight: 'bold' }}>
-                      {formatCurrency(showtime.price)}
-                    </div>
                   </div>
                 ))}
             </div>
@@ -355,15 +368,15 @@ const BookingMovie = () => {
         </div>
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(10, 1fr)',
+          gridTemplateColumns: 'repeat(18, 1fr)',
           gap: '8px',
-          maxWidth: '500px',
+          maxWidth: '900px',
           margin: '0 auto'
         }}>
-          {generateSeats().map(seat => (
+          {seatsList.map(seat => (
             <div
               key={seat.id}
-              onClick={() => !seat.occupied && handleSeatClick(seat.id)}
+              onClick={() => handleSeatClick(seat.id)}
               style={{
                 width: '40px',
                 height: '40px',
@@ -374,28 +387,34 @@ const BookingMovie = () => {
                 fontSize: '12px',
                 fontWeight: 'bold',
                 cursor: seat.occupied ? 'not-allowed' : 'pointer',
-                backgroundColor: seat.occupied ? '#6b7280' :
-                  selectedSeats.includes(seat.id) ? '#ef4444' : '#374151',
+                backgroundColor: seat.occupied ? '#6b7280'
+                  : selectedSeats.includes(seat.id) ? '#16a34a'
+                  : seat.color,
                 color: '#fff',
+                border: selectedSeats.includes(seat.id) ? '2px solid #fff' : 'none',
                 transition: 'all 0.2s'
               }}
+              title={`Ghế ${seat.id} - ${seat.zone === 'vip' ? 'VIP' : seat.zone === 'regular' ? 'Thường' : 'Rẻ'} - ${formatCurrency(seat.price)}`}
             >
               {seat.id}
             </div>
           ))}
         </div>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          gap: '24px',
-          marginTop: '16px'
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <div style={{ width: '16px', height: '16px', backgroundColor: '#374151', borderRadius: '4px' }} />
-            <span>Trống</span>
-          </div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', marginTop: '16px', flexWrap: 'wrap' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <div style={{ width: '16px', height: '16px', backgroundColor: '#ef4444', borderRadius: '4px' }} />
+            <span>VIP - 120.000đ</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <div style={{ width: '16px', height: '16px', backgroundColor: '#a78bfa', borderRadius: '4px' }} />
+            <span>Thường - 80.000đ</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <div style={{ width: '16px', height: '16px', backgroundColor: '#f472b6', borderRadius: '4px' }} />
+            <span>Rẻ - 50.000đ</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <div style={{ width: '16px', height: '16px', backgroundColor: '#16a34a', borderRadius: '4px' }} />
             <span>Đã chọn</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -404,6 +423,11 @@ const BookingMovie = () => {
           </div>
         </div>
       </div>
+      {seatError && (
+        <div style={{ color: "#ef4444", textAlign: "center", fontWeight: 500, marginBottom: 12 }}>
+          {seatError}
+        </div>
+      )}
       {selectedSeats.length > 0 && (
         <div style={{
           backgroundColor: '#1a1a2e',
@@ -412,9 +436,17 @@ const BookingMovie = () => {
           marginTop: '16px'
         }}>
           <h4 style={{ marginBottom: '8px' }}>Ghế đã chọn:</h4>
-          <p style={{ color: '#9ca3af', marginBottom: '8px' }}>
-            {selectedSeats.join(', ')}
-          </p>
+          <ul style={{ color: '#9ca3af', marginBottom: '8px' }}>
+            {selectedSeats.map(seatId => {
+              const seat = seatsList.find(s => s.id === seatId);
+              if (!seat) return null;
+              return (
+                <li key={seat.id}>
+                  {seat.id} - {seat.zone === 'vip' ? 'VIP' : seat.zone === 'regular' ? 'Thường' : 'Rẻ'} ({formatCurrency(seat.price)})
+                </li>
+              );
+            })}
+          </ul>
           <p style={{ fontSize: '18px', fontWeight: 'bold' }}>
             Tổng tiền vé: {formatCurrency(totalTicket)}
           </p>
@@ -644,7 +676,6 @@ const BookingMovie = () => {
             </button>
           </div>
         )}
-        {/* Xử lý thanh toán */}
         {paymentMethod === 'vnpay' && paymentStatus === '' && (
           <div style={{
             backgroundColor: '#22223b',
@@ -785,7 +816,6 @@ const BookingMovie = () => {
     </div>
   );
 
-  // Render nội dung từng bước
   const renderStepContent = () => {
     switch (currentStep) {
       case 1: return renderShowtimeSelection();
@@ -830,7 +860,6 @@ const BookingMovie = () => {
       color: '#fff',
       padding: '20px 0'
     }}>
-      {/* Thông báo thành công */}
       {success && (
         <div
           style={{
@@ -856,11 +885,10 @@ const BookingMovie = () => {
       )}
 
       <div style={{
-        maxWidth: '800px',
+        maxWidth: '1000px',
         margin: '0 auto',
         padding: '0 16px'
       }}>
-        {/* Header */}
         <div style={{
           display: 'flex',
           alignItems: 'center',
@@ -890,13 +918,9 @@ const BookingMovie = () => {
             Đặt vé xem phim
           </h1>
         </div>
-        {/* Step Indicator */}
         {renderStepIndicator()}
-        {/* Movie Info */}
         {renderMovieInfo()}
-        {/* Step Content */}
         {renderStepContent()}
-        {/* Navigation Buttons */}
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
@@ -937,7 +961,6 @@ const BookingMovie = () => {
             </button>
           )}
         </div>
-        {/* Footer info */}
         <div style={{
           marginTop: '40px',
           padding: '20px',
@@ -953,7 +976,6 @@ const BookingMovie = () => {
           </p>
         </div>
       </div>
-      {/* CSS Animation */}
       <style>{`
         @keyframes spin {
           0% { transform: rotate(0deg); }
