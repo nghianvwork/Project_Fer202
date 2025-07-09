@@ -596,7 +596,6 @@
     }
   ],
   "users": [
-    
      
     {
       "id": "ff26",
@@ -608,6 +607,7 @@
       "phone": "0346492902"
     }
   ],
+
   "comments": [
     {
       "id": 1,
@@ -656,7 +656,72 @@
     }
   ],
 
-
+  "Offers": [
+    {
+      "id": 1,
+      "title": "Combo Siêu Phẩm Snack",
+      "description": "30% off khi mua combo bắp nước + snack siêu giòn",
+      "discount": "30%",
+      "validUntil": "2025-07-31",
+      "image": "https://www.galaxycine.vn/media/2025/6/18/1135_1750231663367.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Snack Nóng Giòn Tan chỉ 89K",
+      "description": "Combo snack mới ra mắt với giá cực sốc",
+      "discount": "Giá chỉ 89K",
+      "validUntil": "2025-07-31",
+      "image": "https://www.galaxycine.vn/media/2025/5/21/snack-nong-hoi--vua-xem-phim-vua-thoi---1_1747813632010.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Thứ 3 Vui Vẻ",
+      "description": "Giảm tới 50% giá vé vào thứ 3 hàng tuần",
+      "discount": "Giảm 50%",
+      "validUntil": "2025-12-31",
+      "image": "https://www.galaxycine.vn/media/2024/4/16/digital-1135x660_1713257506992.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ưu đãi VNPay",
+      "description": "Giảm ngay 10K khi thanh toán qua VNPay",
+      "discount": "Giảm 10K",
+      "validUntil": "2025-08-30",
+      "image": "https://www.galaxycine.vn/media/2025/4/16/resize-vnpaygalaxy-1135-x-660_1744798019703.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Thành Viên Galaxy Cinema",
+      "description": "Tích điểm, nhận ưu đãi và quà tặng bất ngờ",
+      "discount": "Tích điểm đổi quà",
+      "validUntil": "Không giới hạn",
+      "image": "https://www.galaxycine.vn/media/2025/1/22/bangqltv-digital-1135x660_1737516350592.jpg"
+    },
+    {
+      "id": 6,
+      "title": "U22 Ưu Đãi",
+      "description": "Giá vé ưu đãi chỉ từ 45.000đ dành cho sinh viên U22",
+      "discount": "Chỉ 45.000đ",
+      "validUntil": "2025-12-31",
+      "image": "https://www.galaxycine.vn/media/2023/8/25/combo-fb-post-03_1692950061813.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Ngày Tri Ân",
+      "description": "Vé đồng giá 55.000đ vào mỗi thứ 2 cuối tháng",
+      "discount": "Giá vé 55.000đ",
+      "validUntil": "2025-12-31",
+      "image": "https://www.galaxycine.vn/media/2025/7/3/1135_1751514599374.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Ưu đãi ShopeePay",
+      "description": "Giảm 5.000đ khi mua vé thanh toán ShopeePay",
+      "discount": "Giảm 5.000đ",
+      "validUntil": "2025-08-31",
+      "image": "https://www.galaxycine.vn/media/2025/7/2/shopee-x-galaxy-3_1751467529580.jpg"
+    }
+  ],
 
 
   "nowShowing": [
