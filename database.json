@@ -596,8 +596,6 @@
     }
   ],
   "users": [
-    
-     
     {
       "id": "ff26",
       "username": "nghianv",
@@ -606,6 +604,15 @@
       "firstname": "Nguyen Van",
       "lastname": "Nghia",
       "phone": "0346492902"
+    },
+    {
+      "id": "9b84",
+      "username": "duongphan",
+      "password": "oppsloki@1",
+      "email": "oppslokiok@gmail.com",
+      "firstname": "Phan ",
+      "lastname": "Duong",
+      "phone": "0963289961"
     }
   ]
 }
