@@ -258,6 +258,7 @@
       ]
     },
     {
+
       "id": "6263",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -271,6 +272,7 @@
       ]
     },
     {
+
       "id": "2378",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -293,7 +295,8 @@
       "email": "he180712nguyenvannghia@gmail.com",
       "firstname": "Nguyen Van",
       "lastname": "Nghia",
-      "phone": "0346492902"
+      "phone": "0346492902",
+      "role": "admin"
     },
     {
       "id": "9b84",
@@ -302,13 +305,14 @@
       "email": "oppslokiok@gmail.com",
       "firstname": "Phan ",
       "lastname": "Duong",
-      "phone": "0963289961"
+      "phone": "0963289961",
+      "role": "user"
     }
   ],
 
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "user": "Minh Anh",
       "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5bb17e1?w=40&h=40&fit=crop&crop=face",
       "comment": "Phim hay quá! Đặc biệt là phần hành động, rất hấp dẫn và kịch tính.",
@@ -317,7 +321,7 @@
       "time": "2 giờ trước"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": "Hoàng Nam",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",
       "comment": "Avatar phần 2 thật sự tuyệt vời! Hình ảnh đẹp mắt, câu chuyện cảm động.",
@@ -326,7 +330,7 @@
       "time": "1 giờ trước"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": "Lan Hương",
       "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face",
       "comment": "Despicable Me 4 siêu dễ thương! Cười đau bụng luôn 😂",
@@ -335,7 +339,7 @@
       "time": "30 phút trước"
     },
     {
-      "id": 4,
+      "id": "4",
       "user": "Trung Kiên",
       "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=40&h=40&fit=crop&crop=face",
       "comment": "Deadpool & Wolverine đúng chất Marvel, hài và hành động không chê được!",
@@ -344,7 +348,7 @@
       "time": "15 phút trước"
     },
     {
-      "id": 5,
+      "id": "5",
       "user": "Thu Trang",
       "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face",
       "comment": "Inside Out 2 cực kỳ cảm động, đưa cả gia đình đi xem ai cũng thích!",
@@ -424,7 +428,7 @@
 
   "nowShowing": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Inside Out 2",
       "poster": "https://m.media-amazon.com/images/I/91nI2zdh9yL._AC_SL1500_.jpg",
       "genre": "Hoạt hình, Hài hước",
@@ -432,7 +436,7 @@
       "duration": "100 phút"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Deadpool & Wolverine",
       "poster": "https://m.media-amazon.com/images/I/81QxKx8UQkL._AC_SL1500_.jpg",
       "genre": "Hành động, Hài",
@@ -440,7 +444,7 @@
       "duration": "130 phút"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Despicable Me 4",
       "poster": "https://m.media-amazon.com/images/I/81xsT5-KrhL._AC_SL1500_.jpg",
       "genre": "Hoạt hình, Phiêu lưu",
@@ -448,7 +452,7 @@
       "duration": "95 phút"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "The Batman",
       "poster": "https://m.media-amazon.com/images/I/81be8fdgSIL._AC_SL1500_.jpg",
       "genre": "Hành động, Hình sự",
@@ -456,15 +460,15 @@
       "duration": "176 phút"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Fast X",
       "poster": "https://m.media-amazon.com/images/I/91XQ9Y0aZfL._AC_SL1500_.jpg",
       "genre": "Hành động, Phiêu lưu",
-      "rating": 7.0,
+      "rating": 7,
       "duration": "140 phút"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Oppenheimer",
       "poster": "https://m.media-amazon.com/images/I/71nIfMJgFGL._AC_SL1500_.jpg",
       "genre": "Tiểu sử, Chính kịch",

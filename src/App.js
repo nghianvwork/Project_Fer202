@@ -13,16 +13,16 @@ import MovieDetail from './Auth/MovieDetail';
 import CreateMovie from './Auth/CreateMovie';
 import HeroBanner from './Banner';
 import Profile from './Auth/Profile';
-
+import CinemaDetail from './Component/CinemaDetail';
+import AdminDashboard from './Auth/admindashboard';
+import EditMovie from './Auth/EditMovie';
+import ShowtimeForm from './Auth/ShowtimeForm';
 import OfferList from './Auth/OfferList';
 import OfferDetail from './Auth/OfferDetail';
-
 import CinemaDetail from './Component/CinemaDetail';
-
 import ScheduleToday from './Auth/Scheduletoday';
 import NowShowing from './Auth/NowShowing';
 import MovieBooking from './Auth/MovieBooking';
-
 
 // npx json-server --watch database.json --port 9999
 function App() {
@@ -32,10 +32,16 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/profile' element={<Profile />} />
         <Route path="/movies/:id" element={<MovieDetail />} />
-        <Route path='/signup' element={<Register/>} />
-        <Route path='/login' element={<Login/>} />
+        <Route path='/signup' element={<Register />} />
+        <Route path='/login' element={<Login />} />
+        <Route path="/admin" element={<PrivateRole adminOnly={true}><AdminDashboard /></PrivateRole>} />
+        <Route path="/edit-movie/:id" element={<PrivateRole adminOnly={true}><EditMovie /></PrivateRole>} />
+        <Route path="/create-movie" element={<PrivateRole adminOnly={true}><CreateMovie /></PrivateRole>} />
+        <Route path="/showtime-form/:movieId" element={<PrivateRole adminOnly={true}><ShowtimeForm /></PrivateRole>} />
+
+
 
         <Route path="/offerlist" element={<OfferList />} />
         <Route path="/offer/:id" element={<OfferDetail />} />
