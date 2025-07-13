@@ -13,10 +13,17 @@ import MovieDetail from './Auth/MovieDetail';
 import CreateMovie from './Auth/CreateMovie';
 import HeroBanner from './Banner';
 import Profile from './Auth/Profile';
+
+import OfferList from './Auth/OfferList';
+import OfferDetail from './Auth/OfferDetail';
+
+import CinemaDetail from './Component/CinemaDetail';
+
 import CinemaDetail from './Component/CinemaDetail';
 import ScheduleToday from './Auth/Scheduletoday';
 import NowShowing from './Auth/NowShowing';
 import MovieBooking from './Auth/MovieBooking';
+
 
 // npx json-server --watch database.json --port 9999
 function App() {
@@ -30,9 +37,15 @@ function App() {
         <Route path="/movies/:id" element={<MovieDetail />} />
         <Route path='/signup' element={<Register/>} />
         <Route path='/login' element={<Login/>} />
+
+        <Route path="/offerlist" element={<OfferList />} />
+        <Route path="/offer/:id" element={<OfferDetail />} />
+
+
          <Route path='/ScheduleToday' element={<ScheduleToday />} />
         <Route path='/NowShowing' element={<NowShowing />} />
        <Route path='/moviebooking/:id' element={<MovieBooking />} />
+
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route
           path='/changepassword'

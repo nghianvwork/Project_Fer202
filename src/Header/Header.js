@@ -118,7 +118,7 @@ const Header = () => {
             <a className="nav-link" onClick={() => navigate("/")}>Phim chiếu</a>
             <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
             <a className="nav-link" onClick={() => navigate("/topfilm")}>Top phim</a>
-            <a className="nav-link" onClick={() => navigate("/")}>Blog phim</a>
+            <a className="nav-link" onClick={() => navigate("/offerlist")}>Ưu đãi</a>
             <button className="login-btn" onClick={() => navigate('/create-movie')}>
               Thêm phim
             </button>

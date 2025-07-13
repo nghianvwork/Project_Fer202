@@ -1,0 +1,105 @@
+.offer-detail-container {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.offer-not-found {
+  padding: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.offer-detail-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.offer-detail-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.offer-detail-info {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.offer-detail-info h2 {
+  color: #e50914;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.offer-detail-section {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.offer-detail-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.offer-detail-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.discount-badge-large {
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+.valid-date {
+  font-weight: bold;
+  color: #e50914;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .offer-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .offer-detail-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .offer-detail-image {
+    max-width: 100%;
+  }
+}
