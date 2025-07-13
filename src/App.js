@@ -17,6 +17,13 @@ import CinemaDetail from './Component/CinemaDetail';
 import AdminDashboard from './Auth/admindashboard';
 import EditMovie from './Auth/EditMovie';
 import ShowtimeForm from './Auth/ShowtimeForm';
+import OfferList from './Auth/OfferList';
+import OfferDetail from './Auth/OfferDetail';
+import CinemaDetail from './Component/CinemaDetail';
+import ScheduleToday from './Auth/Scheduletoday';
+import NowShowing from './Auth/NowShowing';
+import MovieBooking from './Auth/MovieBooking';
+
 // npx json-server --watch database.json --port 9999
 function App() {
   return (
@@ -35,6 +42,14 @@ function App() {
         <Route path="/showtime-form/:movieId" element={<PrivateRole adminOnly={true}><ShowtimeForm /></PrivateRole>} />
 
 
+
+        <Route path="/offerlist" element={<OfferList />} />
+        <Route path="/offer/:id" element={<OfferDetail />} />
+
+
+         <Route path='/ScheduleToday' element={<ScheduleToday />} />
+        <Route path='/NowShowing' element={<NowShowing />} />
+       <Route path='/moviebooking/:id' element={<MovieBooking />} />
 
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route

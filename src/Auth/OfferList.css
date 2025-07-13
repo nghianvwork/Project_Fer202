@@ -1,0 +1,111 @@
+/* Reset và font chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Phần danh sách ưu đãi */
+  .section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #e50914;
+    margin: 10px auto;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin: 50px 0;
+  }
+  
+  /* Grid ảnh ưu đãi */
+  .offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+  }
+  
+  .offer-image-link {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 200px;
+  }
+  
+  .offer-image-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .offer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .offer-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 20px;
+    color: white;
+  }
+  
+  .offer-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .offers-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .offer-header h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .offers-grid {
+      grid-template-columns: 1fr;
+    }
+  }

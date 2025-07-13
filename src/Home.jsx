@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import HeroBanner from "./Banner";
-import Header from "./Header/Header"
+import Header from "./Header/Header";
 import { Link } from "react-router-dom";
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
@@ -13,35 +14,38 @@ function Home() {
   const [movies, setMovies] = useState([]);
   const [tab, setTab] = useState("showing");
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+  const [showTrailer, setShowTrailer] = useState(false);
+  const [trailerUrl, setTrailerUrl] = useState("");
 
-  useEffect(() => {
-    fetch("http://localhost:9999/moviesData")
-      .then(res => res.json())
-      .then(data => {
-        setMovies(data);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
+ useEffect(() => {
+  fetch("http://localhost:9999/moviesData")
+    .then(res => res.json())
+    .then(data => {
+      console.log(data);
+      setMovies(data); 
+      setLoading(false);
+    })
+    .catch(() => {
+      setMovies([]); 
+      setLoading(false);
+    });
+}, []);
 
-  // Phân loại phim theo tab (giả lập, bạn phân loại thật bằng trường trong DB)
   const filteredMovies = movies.filter(movie => {
     if (tab === "showing") {
-      // Phim có lịch chiếu <= hôm nay
       const today = new Date();
       return movie.showtimes?.some(show =>
         new Date(show.date) <= today
       );
     }
     if (tab === "upcoming") {
-      // Phim có lịch chiếu > hôm nay
       const today = new Date();
       return movie.showtimes?.some(show =>
         new Date(show.date) > today
       );
     }
     if (tab === "imax") {
-      // Phim có rating >= 8.5 tạm coi là IMAX
       return movie.rating >= 8.5;
     }
     if (tab === "nationwide") {
@@ -50,6 +54,8 @@ function Home() {
     return true;
   });
 
+  
+ 
   if (loading) {
     return (
       <div className="loading-container">
@@ -62,9 +68,7 @@ function Home() {
   return (
     <div className="galaxy-cinema">
       <Header/>
-      {/* HEADER GIỮ HOẶC BỎ TÙY Ý */}
       <HeroBanner />
-      {/* Movie Tabs */}
       <div className="container">
         <div className="movie-section">
           <div className="section-header">
@@ -81,15 +85,12 @@ function Home() {
               ))}
             </div>
           </div>
-
-          {/* Movie Grid */}
           <div className="movie-grid">
             {filteredMovies.map((movie) => (
               <div className="movie-card" key={movie.id}>
                 <div className="movie-poster-container">
                   <img src={movie.poster} className="movie-poster" alt={movie.title} />
                   <div className="movie-badges">
-                   
                     {movie.rating >= 8.5 && <span className="badge badge-hot">HOT</span>}
                     {movie.showtimes?.some(show => new Date(show.date) > new Date()) && (
                       <span className="badge badge-new">NEW</span>
@@ -99,22 +100,32 @@ function Home() {
                     <span className="rating-star">★</span>
                     <span className="rating-score">{movie.rating}</span>
                   </div>
-                  
+                  <div className="movie-overlay">
+                    <button
+                      className="btn-play"
+                     
+                    >▶</button>
+                    <button
+                      className="btn-buy"
+                      onClick={() => navigate(`/moviebooking/${movie.id}`)}
+                    >
+                      Mua vé
+                    </button>
+                  </div>
                 </div>
                 <div className="movie-info">
                   <Link to={`/movies/${movie.id}`}>
-                
-                      <h3>{movie.title}</h3>
-                      </Link>
+                    <h3>{movie.title}</h3>
+                  </Link>
                   <p>{movie.genre}</p>
                   <p>{movie.duration}</p>
-                 
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
+    
     </div>
   );
 }
