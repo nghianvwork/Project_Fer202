@@ -19,7 +19,6 @@ import OfferDetail from './Auth/OfferDetail';
 
 import CinemaDetail from './Component/CinemaDetail';
 
-import CinemaDetail from './Component/CinemaDetail';
 import ScheduleToday from './Auth/Scheduletoday';
 import NowShowing from './Auth/NowShowing';
 import MovieBooking from './Auth/MovieBooking';
