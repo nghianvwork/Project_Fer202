@@ -4,6 +4,12 @@ import { useNavigate } from "react-router-dom";
 import ShowtimeForm from "./ShowtimeForm";
 import AdminHeader from "../Header/AdminHeader";
 
+// Thêm recharts
+import {
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
+  PieChart, Pie, Cell, Legend
+} from "recharts";
+
 const API_MOVIES = "http://localhost:9999/moviesData";
 const API_USERS = "http://localhost:9999/users";
 
@@ -13,6 +19,12 @@ export default function AdminDashboard() {
   const [tab, setTab] = useState("dashboard");
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [editShowtimeId, setEditShowtimeId] = useState(null);
+
+  // Bộ lọc
+  const [selectedGenres, setSelectedGenres] = useState([]);
+  const [minRating, setMinRating] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -27,7 +39,73 @@ export default function AdminDashboard() {
     fetchAll();
   }, []);
 
-  // Xoá phim
+  // Lấy tất cả genres không trùng
+  const allGenres = Array.from(
+    new Set(
+      movies
+        .flatMap(m => (m.genre || "").split(","))
+        .map(g => g.trim())
+        .filter(Boolean)
+    )
+  ).sort((a, b) => a.localeCompare(b));
+
+  const handleToggleGenre = (genre) => {
+    setSelectedGenres(prev =>
+      prev.includes(genre) ? prev.filter(g => g !== genre) : [...prev, genre]
+    );
+  };
+
+  // Bộ lọc tổng hợp
+  const filteredMovies = movies.filter(mv => {
+    // Lọc theo thể loại
+    const matchGenre =
+      selectedGenres.length === 0
+        ? true
+        : mv.genre
+            .split(",")
+            .map(g => g.trim())
+            .some(g => selectedGenres.includes(g));
+    // Lọc rating
+    const matchRating =
+      !minRating ? true : Number(mv.rating) >= Number(minRating);
+    // Lọc theo tên
+    const matchTitle =
+      !searchTerm
+        ? true
+        : mv.title.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchGenre && matchRating && matchTitle;
+  });
+
+  // --------- Dữ liệu biểu đồ tổng quan ---------
+  // 1. BarChart: số phim theo thể loại
+  const genreCount = {};
+  movies.forEach(movie => {
+    (movie.genre || "").split(",").map(g => g.trim()).filter(Boolean).forEach(genre => {
+      genreCount[genre] = (genreCount[genre] || 0) + 1;
+    });
+  });
+  const genreChartData = Object.entries(genreCount)
+    .map(([genre, count]) => ({ genre, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 7); // Top 7
+
+  // 2. PieChart: tỷ lệ phim theo rating
+  const ratingGroups = [
+    { name: "<7", from: 0, to: 6.99 },
+    { name: "7–7.99", from: 7, to: 7.99 },
+    { name: "8–8.99", from: 8, to: 8.99 },
+    { name: "≥9", from: 9, to: 10 }
+  ];
+  const ratingChartData = ratingGroups.map(group => ({
+    name: group.name,
+    value: movies.filter(
+      m => Number(m.rating) >= group.from && Number(m.rating) <= group.to
+    ).length
+  }));
+  const ratingColors = ["#faa", "#ffd93d", "#76c7fa", "#48bb78"];
+  // ----------------------------------------------
+
+  // CRUD
   const handleDeleteMovie = async (id) => {
     if (!window.confirm("Xác nhận xoá phim này?")) return;
     await fetch(`${API_MOVIES}/${id}`, { method: "DELETE" });
@@ -36,12 +114,13 @@ export default function AdminDashboard() {
   };
 
   // Xoá user
+
   const handleDeleteUser = async (id) => {
     if (!window.confirm("Xác nhận xoá tài khoản này?")) return;
     await fetch(`${API_USERS}/${id}`, { method: "DELETE" });
     setUsers(users.filter(u => u.id !== id));
   };
-
+  
   // Xoá lịch chiếu
   const handleDeleteShowtime = async (movieId, showtimeId) => {
     const movie = movies.find(m => m.id === movieId);
@@ -117,25 +196,73 @@ export default function AdminDashboard() {
       </div>
 
       <div style={{maxWidth: 1200, margin: "0 auto"}}>
-        {/* Thống kê tổng quan */}
+        {/* Thống kê tổng quan + Biểu đồ */}
         {tab === "dashboard" && (
-          <div style={{display: "flex", gap: 28, justifyContent: "center", marginBottom: 38, flexWrap: "wrap"}}>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="movie" style={{fontSize: 28}}>🎬</span>
-              <div style={{fontSize: 32, fontWeight: 700}}>{movies.length}</div>
-              <div>Phim</div>
+          <>
+            <div style={{display: "flex", gap: 28, justifyContent: "center", marginBottom: 38, flexWrap: "wrap"}}>
+              <div className="admin-stat" style={statBoxStyle}>
+                <span role="img" aria-label="movie" style={{fontSize: 28}}>🎬</span>
+                <div style={{fontSize: 32, fontWeight: 700}}>{movies.length}</div>
+                <div>Phim</div>
+              </div>
+              <div className="admin-stat" style={statBoxStyle}>
+                <span role="img" aria-label="cal" style={{fontSize: 28}}>📅</span>
+                <div style={{fontSize: 32, fontWeight: 700}}>{totalShowtimes}</div>
+                <div>Lịch chiếu</div>
+              </div>
+              <div className="admin-stat" style={statBoxStyle}>
+                <span role="img" aria-label="user" style={{fontSize: 28}}>👤</span>
+                <div style={{fontSize: 32, fontWeight: 700}}>{users.length}</div>
+                <div>Thành viên</div>
+              </div>
             </div>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="cal" style={{fontSize: 28}}>📅</span>
-              <div style={{fontSize: 32, fontWeight: 700}}>{totalShowtimes}</div>
-              <div>Lịch chiếu</div>
+            {/* --- Biểu đồ thống kê --- */}
+            <div style={{display: "flex", gap: 24, flexWrap: "wrap", justifyContent: "center"}}>
+              {/* Biểu đồ cột: Số phim theo thể loại */}
+              <div style={{
+                background: "#fff", borderRadius: 18, boxShadow: "0 2px 18px #8b93b320",
+                padding: 18, width: 430, minWidth: 340, height: 350
+              }}>
+                <h4 style={{marginBottom: 10, fontWeight: 600}}>Phim theo thể loại</h4>
+                <ResponsiveContainer width="100%" height={270}>
+                  <BarChart data={genreChartData}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="genre" tick={{fontSize: 14}} />
+                    <YAxis allowDecimals={false}/>
+                    <Tooltip />
+                    <Bar dataKey="count" fill="#764ba2" barSize={36} radius={[8,8,0,0]}/>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+              {/* Biểu đồ tròn: Tỷ lệ phim theo rating */}
+              <div style={{
+                background: "#fff", borderRadius: 18, boxShadow: "0 2px 18px #8b93b320",
+                padding: 18, width: 350, minWidth: 280, height: 350
+              }}>
+                <h4 style={{marginBottom: 10, fontWeight: 600}}>Tỷ lệ phim theo rating</h4>
+                <ResponsiveContainer width="100%" height={250}>
+                  <PieChart>
+                    <Pie
+                      data={ratingChartData}
+                      dataKey="value"
+                      nameKey="name"
+                      cx="50%"
+                      cy="50%"
+                      outerRadius={90}
+                      innerRadius={45}
+                      label={({name, percent}) => `${name} (${(percent*100).toFixed(0)}%)`}
+                    >
+                      {ratingChartData.map((entry, idx) => (
+                        <Cell key={`cell-${idx}`} fill={ratingColors[idx % ratingColors.length]} />
+                      ))}
+                    </Pie>
+                    <Tooltip />
+                    <Legend verticalAlign="bottom" height={28}/>
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
             </div>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="user" style={{fontSize: 28}}>👤</span>
-              <div style={{fontSize: 32, fontWeight: 700}}>{users.length}</div>
-              <div>Thành viên</div>
-            </div>
-          </div>
+          </>
         )}
 
         {/* Quản lý phim */}
@@ -150,6 +277,102 @@ export default function AdminDashboard() {
                 <PlusCircle size={18} style={{marginRight: 6}} /> Thêm phim mới
               </button>
             </div>
+            {/* --- Bộ lọc --- */}
+            <div style={{
+              margin: "10px 0 20px 0",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 18,
+              alignItems: "center"
+            }}>
+              {/* Lọc theo thể loại */}
+              <div style={{display: "flex", alignItems: "center", gap: 10}}>
+                <b style={{marginRight: 6}}>Thể loại:</b>
+                {allGenres.map((genre) => (
+                  <label key={genre} style={{
+                    display: "inline-flex", alignItems: "center",
+                    fontWeight: 400, background: "#f2f3f7", borderRadius: 8, padding: "4px 10px", margin: "2px 6px 2px 0"
+                  }}>
+                    <input
+                      type="checkbox"
+                      value={genre}
+                      checked={selectedGenres.includes(genre)}
+                      onChange={() => handleToggleGenre(genre)}
+                      style={{marginRight: 5}}
+                    />
+                    {genre}
+                  </label>
+                ))}
+                {selectedGenres.length > 0 && (
+                  <button
+                    style={{
+                      marginLeft: 10, padding: "3px 10px", borderRadius: 8,
+                      border: "none", background: "#e7e7e7", color: "#333", cursor: "pointer"
+                    }}
+                    onClick={() => setSelectedGenres([])}
+                  >
+                    Xoá lọc
+                  </button>
+                )}
+              </div>
+              {/* Lọc rating */}
+              <div style={{display: "flex", alignItems: "center", gap: 8}}>
+                <b>Rating:</b>
+                <select
+                  value={minRating}
+                  onChange={e => setMinRating(e.target.value)}
+                  style={{padding: "3px 10px", borderRadius: 8, border: "1px solid #eee", outline: "none"}}
+                >
+                  <option value="">Tất cả</option>
+                  <option value="5">Từ 5+</option>
+                  <option value="6">Từ 6+</option>
+                  <option value="7">Từ 7+</option>
+                  <option value="8">Từ 8+</option>
+                  <option value="9">Từ 9+</option>
+                </select>
+                {minRating && (
+                  <button
+                    style={{
+                      marginLeft: 8, padding: "3px 10px", borderRadius: 8,
+                      border: "none", background: "#e7e7e7", color: "#333", cursor: "pointer"
+                    }}
+                    onClick={() => setMinRating("")}
+                  >
+                    Xoá lọc
+                  </button>
+                )}
+              </div>
+              {/* Tìm kiếm tên phim */}
+              <div style={{display: "flex", alignItems: "center", gap: 8}}>
+                <b>Tìm tên:</b>
+                <input
+                  type="text"
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  placeholder="Nhập tên phim..."
+                  style={{
+                    borderRadius: 8,
+                    border: "1px solid #eee",
+                    padding: "4px 12px",
+                    minWidth: 180,
+                    outline: "none"
+                  }}
+                />
+                {searchTerm && (
+                  <button
+                    style={{
+                      marginLeft: 2, padding: "3px 8px", borderRadius: 8,
+                      border: "none", background: "#e7e7e7", color: "#333", cursor: "pointer"
+                    }}
+                    onClick={() => setSearchTerm("")}
+                  >
+                    Xoá
+                  </button>
+                )}
+              </div>
+            </div>
+            {/* --- Kết thúc bộ lọc --- */}
+
             <table className="table table-bordered" style={{background: "#fff", borderRadius: 10, overflow: "hidden", width: "100%"}}>
               <thead style={{background: "#f2f2f2"}}>
                 <tr>
@@ -164,7 +387,7 @@ export default function AdminDashboard() {
                 </tr>
               </thead>
               <tbody>
-                {movies.map((mv, i) => (
+                {filteredMovies.map((mv, i) => (
                   <tr key={mv.id}>
                     <td>{i + 1}</td>
                     <td><img src={mv.poster} alt="" style={{width: 60, borderRadius: 6}} /></td>
