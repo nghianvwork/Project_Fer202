@@ -1,0 +1,3114 @@
+{
+  "moviesData": [
+    {
+      "id": "1",
+      "title": "Avatar: The Way of Water",
+      "genre": "Sci-Fi, Action",
+      "duration": "192 phút",
+      "rating": 8.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_SX300.jpg",
+      "description": "Jake Sully sống cùng gia đình mới trên hành tinh Pandora. Khi một mối đe dọa quen thuộc trở lại...",
+      "showtimes": [
+        {
+          "id": 10001,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10002,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10003,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10004,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10005,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10006,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10007,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10008,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10009,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10010,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10011,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10012,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10013,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10014,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10015,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10016,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10017,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10018,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10019,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10020,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10021,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Top Gun: Maverick",
+      "genre": "Action, Drama",
+      "duration": "131 phút",
+      "rating": 9.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
+      "description": "Pete 'Maverick' Mitchell trở lại sau 30 năm phục vụ trong hải quân...",
+      "showtimes": [
+        {
+          "id": 10022,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10023,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10024,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10025,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10026,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10027,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10028,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10029,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10030,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10031,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10032,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10033,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10034,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10035,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10036,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10037,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10038,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10039,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10040,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10041,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10042,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "The Batman",
+      "genre": "Action, Thriller",
+      "duration": "176 phút",
+      "rating": 8.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNTAwZGEtNTAxNC00ODVjLTgzZjUtYmU0YjAzNzBlZTQxXkEyXkFqcGdeQXVyNDc2NTg3NzA@._V1_SX300.jpg",
+      "description": "Với mặt nạ mới, Batman phải tìm hiểu về nỗi sợ hãi ẩn giấu của Gotham...",
+      "showtimes": [
+        {
+          "id": 10043,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10044,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10045,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10046,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10047,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10048,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10049,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10050,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10051,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10052,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10053,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10054,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10055,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10056,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10057,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10058,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10059,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10060,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10061,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10062,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10063,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Oppenheimer",
+      "genre": "Biography, Drama",
+      "duration": "180 phút",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "description": "Câu chuyện về cuộc đời và công trình của nhà vật lý J. Robert Oppenheimer...",
+      "showtimes": [
+        {
+          "id": 10064,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10065,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10066,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10067,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10068,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10069,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10070,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10071,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10072,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10073,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10074,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10075,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10076,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10077,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10078,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10079,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10080,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10081,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10082,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10083,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10084,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Barbie",
+      "genre": "Comedy, Fantasy",
+      "duration": "114 phút",
+      "rating": 7.4,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "description": "Barbie rời khỏi thế giới hồng hào của mình để khám phá thế giới con người...",
+      "showtimes": [
+        {
+          "id": 10085,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10086,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10087,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10088,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10089,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10090,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10091,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10092,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10093,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10094,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10095,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10096,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10097,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10098,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10099,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10100,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10101,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10102,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10103,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10104,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10105,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Inception",
+      "genre": "Sci-Fi, Thriller",
+      "duration": "148 phút",
+      "rating": 8.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "description": "Câu chuyện về một nhóm trộm sử dụng giấc mơ để đánh cắp những bí mật quan trọng.",
+      "showtimes": [
+        {
+          "id": 10106,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10107,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10108,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10109,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10110,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10111,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10112,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10113,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10114,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10115,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10116,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10117,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10118,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10119,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10120,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10121,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10122,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10123,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10124,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10125,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10126,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Jurassic World",
+      "genre": "Action, Adventure, Sci-Fi",
+      "duration": "124 phút",
+      "rating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3OTY4NjAtNzM5OS00M2Y1LWJmMzMtNzFhZjJiN2RjNzEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "description": "Những con khủng long trở lại trong một công viên giải trí khổng lồ với những mối nguy hiểm mới.",
+      "showtimes": [
+        {
+          "id": 10127,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10128,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10129,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10130,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10131,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10132,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10133,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10134,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10135,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10136,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10137,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10138,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10139,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10140,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10141,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10142,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10143,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10144,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10145,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10146,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10147,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "The Flash",
+      "genre": "Action, Adventure, Fantasy",
+      "duration": "143 phút",
+      "rating": 7.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTJlZjNkNzAtNzQ1YS00ZjNjLTkwODQtNWRlNDdhOGE0NGNkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+      "description": "Barry Allen trở thành The Flash, đối mặt với các kẻ thù và một vũ trụ mới.",
+      "showtimes": [
+        {
+          "id": 10148,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10149,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10150,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10151,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10152,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10153,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10154,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10155,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10156,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10157,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10158,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10159,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10160,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10161,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10162,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10163,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10164,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10165,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10166,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10167,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10168,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Spider-Man: No Way Home",
+      "genre": "Action, Adventure, Sci-Fi",
+      "duration": "148 phút",
+      "rating": 8.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
+      "description": "Spider-Man đối mặt với những mối đe dọa từ các vũ trụ khác.",
+      "showtimes": [
+        {
+          "id": 10169,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10170,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10171,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10172,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10173,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10174,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10175,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10176,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10177,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10178,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10179,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10180,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10181,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10182,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10183,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10184,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10185,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10186,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10187,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10188,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10189,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "genre": "Action, Adventure, Fantasy",
+      "duration": "126 phút",
+      "rating": 7.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+      "description": "Doctor Strange bước vào thế giới đa vũ trụ để giải cứu thế giới khỏi những mối đe dọa khủng khiếp.",
+      "showtimes": [
+        {
+          "id": 10190,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10191,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10192,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10193,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10194,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10195,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10196,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10197,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10198,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10199,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10200,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10201,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10202,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10203,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10204,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10205,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10206,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10207,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10208,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10209,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10210,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Mission: Impossible - Fallout",
+      "genre": "Action, Adventure, Thriller",
+      "duration": "148 phút",
+      "rating": 8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_SX300.jpg",
+      "description": "Ethan Hunt và nhóm phải đối mặt với những nguy hiểm lớn lao trong cuộc chiến chống lại khủng bố.",
+      "showtimes": [
+        {
+          "id": 10211,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10212,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10213,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10214,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10215,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10216,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10217,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10218,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10219,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10220,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10221,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10222,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10223,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10224,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10225,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10226,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10227,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10228,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10229,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10230,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10231,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "The Hunger Games",
+      "genre": "Action, Sci-Fi",
+      "duration": "142 phút",
+      "rating": 7.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg",
+      "description": "Trong một thế giới đầy bạo lực, Katniss Everdeen phải chiến đấu để sống sót trong các trò chơi chết chóc.",
+      "showtimes": [
+        {
+          "id": 10232,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10233,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10234,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10235,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10236,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10237,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10238,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10239,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10240,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10241,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10242,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10243,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10244,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10245,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10246,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10247,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10248,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10249,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10250,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10251,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10252,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Frozen II",
+      "genre": "Animation, Adventure, Family",
+      "duration": "103 phút",
+      "rating": 7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg",
+      "description": "Anna và Elsa tiếp tục cuộc hành trình mới để khám phá những bí ẩn trong vương quốc của họ.",
+      "showtimes": [
+        {
+          "id": 10253,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10254,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10255,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10256,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10257,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10258,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10259,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10260,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10261,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10262,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10263,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10264,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10265,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10266,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10267,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10268,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10269,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10270,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10271,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10272,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10273,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "genre": "Action, Adventure, Fantasy",
+      "duration": "132 phút",
+      "rating": 7.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "description": "Shang-Chi phải đối mặt với quá khứ của mình khi anh bị cuốn vào một tổ chức tội phạm bí mật.",
+      "showtimes": [
+        {
+          "id": 10274,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10275,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10276,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10277,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10278,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10279,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10280,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10281,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10282,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10283,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10284,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10285,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10286,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10287,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10288,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10289,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10290,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10291,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10292,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10293,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10294,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Jumanji: Welcome to the Jungle",
+      "genre": "Action, Adventure, Comedy",
+      "duration": "119 phút",
+      "rating": 6.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "description": "Bốn người bạn bị cuốn vào trò chơi Jumanji và phải chiến đấu để sống sót trong thế giới kỳ diệu này.",
+      "showtimes": [
+        {
+          "id": 10295,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10296,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10297,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10298,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10299,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10300,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10301,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10302,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10303,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10304,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10305,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10306,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10307,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10308,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10309,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10310,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10311,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10312,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10313,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10314,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10315,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "The Lion King",
+      "genre": "Animation, Adventure, Drama",
+      "duration": "118 phút",
+      "rating": 8.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+      "description": "Một chú sư tử trẻ phải đối mặt với thử thách lớn nhất trong cuộc đời mình để trở thành vua của Savanna.",
+      "showtimes": [
+        {
+          "id": 10316,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10317,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10318,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10319,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10320,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10321,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10322,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10323,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10324,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10325,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10326,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10327,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10328,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10329,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10330,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10331,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10332,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10333,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10334,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10335,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10336,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "The Matrix Resurrections",
+      "genre": "Action, Sci-Fi",
+      "duration": "148 phút",
+      "rating": 6.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+      "description": "Neo quay lại với thế giới ảo của Matrix và đối mặt với một nhiệm vụ mới.",
+      "showtimes": [
+        {
+          "id": 10337,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10338,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10339,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10340,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10341,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10342,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10343,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10344,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10345,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10346,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10347,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10348,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10349,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10350,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10351,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10352,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10353,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10354,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10355,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10356,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10357,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "6263",
+      "title": "Đại chiến Transformer",
+      "genre": "Hành động ",
+      "duration": "120 phút",
+      "rating": 9,
+      "poster": "https://www.bing.com/images/search?view=detailV2&ccid=YLZJb6TR&id=C25F7DA0E0CD4856AD6BF314743421288443EA83&thid=OIP.YLZJb6TR1aEGCKqQcExgrQHaJQ&mediaurl=https%3a%2f%2fpics.filmaffinity.com%2fTransformers_El_despertar_de_las_bestias-314641307-large.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.60b6496fa4d1d5a10608aa90704c60ad%3frik%3dg%252bpDhCghNHQU8w%26pid%3dImgRaw%26r%3d0&exph=1200&expw=960&q=transformer&simid=607996825711619426&FORM=IRPRST&ck=479E60630680D3788E3793947CC4852E&selectedIndex=3&itb=0",
+      "description": "Đại chiến giữa các robot",
+      "showtimes": [
+        {
+          "id": 10358,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10359,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10360,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10361,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10362,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10363,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10364,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10365,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10366,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10367,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10368,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10369,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10370,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10371,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10372,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10373,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10374,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10375,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10376,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10377,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10378,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    },
+    {
+      "id": "2378",
+      "title": "Đại chiến Transformer",
+      "genre": "Hành động ",
+      "duration": "120 phút",
+      "rating": 9,
+      "poster": "https://www.bing.com/images/search?view=detailV2&ccid=YLZJb6TR&id=C25F7DA0E0CD4856AD6BF314743421288443EA83&thid=OIP.YLZJb6TR1aEGCKqQcExgrQHaJQ&mediaurl=https%3a%2f%2fpics.filmaffinity.com%2fTransformers_El_despertar_de_las_bestias-314641307-large.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.60b6496fa4d1d5a10608aa90704c60ad%3frik%3dg%252bpDhCghNHQU8w%26pid%3dImgRaw%26r%3d0&exph=1200&expw=960&q=transformer&simid=607996825711619426&FORM=IRPRST&ck=479E60630680D3788E3793947CC4852E&selectedIndex=3&itb=0",
+      "description": "Đại chiến robot",
+      "showtimes": [
+        {
+          "id": 10379,
+          "time": "09:00",
+          "date": "2025-07-16",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10380,
+          "time": "14:00",
+          "date": "2025-07-16",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10381,
+          "time": "19:00",
+          "date": "2025-07-16",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10382,
+          "time": "09:00",
+          "date": "2025-07-17",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10383,
+          "time": "14:00",
+          "date": "2025-07-17",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10384,
+          "time": "19:00",
+          "date": "2025-07-17",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10385,
+          "time": "09:00",
+          "date": "2025-07-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10386,
+          "time": "14:00",
+          "date": "2025-07-18",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10387,
+          "time": "19:00",
+          "date": "2025-07-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10388,
+          "time": "09:00",
+          "date": "2025-07-19",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10389,
+          "time": "14:00",
+          "date": "2025-07-19",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10390,
+          "time": "19:00",
+          "date": "2025-07-19",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10391,
+          "time": "09:00",
+          "date": "2025-07-20",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10392,
+          "time": "14:00",
+          "date": "2025-07-20",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10393,
+          "time": "19:00",
+          "date": "2025-07-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10394,
+          "time": "09:00",
+          "date": "2025-07-21",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10395,
+          "time": "14:00",
+          "date": "2025-07-21",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10396,
+          "time": "19:00",
+          "date": "2025-07-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        },
+        {
+          "id": 10397,
+          "time": "09:00",
+          "date": "2025-07-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 10398,
+          "time": "14:00",
+          "date": "2025-07-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 10399,
+          "time": "19:00",
+          "date": "2025-07-22",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "ff26",
+      "username": "nghianv",
+      "password": "Nghia08@",
+      "email": "he180712nguyenvannghia@gmail.com",
+      "firstname": "Nguyen Van",
+      "lastname": "Nghia",
+      "phone": "0346492902"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user": "Minh Anh",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5bb17e1?w=40&h=40&fit=crop&crop=face",
+      "comment": "Phim hay quá! Đặc biệt là phần hành động, rất hấp dẫn và kịch tính.",
+      "movie": "Top Gun: Maverick",
+      "likes": 24,
+      "time": "2 giờ trước"
+    },
+    {
+      "id": 2,
+      "user": "Hoàng Nam",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",
+      "comment": "Avatar phần 2 thật sự tuyệt vời! Hình ảnh đẹp mắt, câu chuyện cảm động.",
+      "movie": "Avatar: The Way of Water",
+      "likes": 18,
+      "time": "1 giờ trước"
+    },
+    {
+      "id": 3,
+      "user": "Lan Hương",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face",
+      "comment": "Despicable Me 4 siêu dễ thương! Cười đau bụng luôn 😂",
+      "movie": "Despicable Me 4",
+      "likes": 30,
+      "time": "30 phút trước"
+    },
+    {
+      "id": 4,
+      "user": "Trung Kiên",
+      "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=40&h=40&fit=crop&crop=face",
+      "comment": "Deadpool & Wolverine đúng chất Marvel, hài và hành động không chê được!",
+      "movie": "Deadpool & Wolverine",
+      "likes": 45,
+      "time": "15 phút trước"
+    },
+    {
+      "id": 5,
+      "user": "Thu Trang",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face",
+      "comment": "Inside Out 2 cực kỳ cảm động, đưa cả gia đình đi xem ai cũng thích!",
+      "movie": "Inside Out 2",
+      "likes": 35,
+      "time": "5 phút trước"
+    }
+  ],
+  "nowShowing": [
+    {
+      "id": 1,
+      "title": "Inside Out 2",
+      "poster": "https://m.media-amazon.com/images/I/91nI2zdh9yL._AC_SL1500_.jpg",
+      "genre": "Hoạt hình, Hài hước",
+      "rating": 8.1,
+      "duration": "100 phút"
+    },
+    {
+      "id": 2,
+      "title": "Deadpool & Wolverine",
+      "poster": "https://m.media-amazon.com/images/I/81QxKx8UQkL._AC_SL1500_.jpg",
+      "genre": "Hành động, Hài",
+      "rating": 8.5,
+      "duration": "130 phút"
+    },
+    {
+      "id": 3,
+      "title": "Despicable Me 4",
+      "poster": "https://m.media-amazon.com/images/I/81xsT5-KrhL._AC_SL1500_.jpg",
+      "genre": "Hoạt hình, Phiêu lưu",
+      "rating": 7.6,
+      "duration": "95 phút"
+    },
+    {
+      "id": 4,
+      "title": "The Batman",
+      "poster": "https://m.media-amazon.com/images/I/81be8fdgSIL._AC_SL1500_.jpg",
+      "genre": "Hành động, Hình sự",
+      "rating": 8.2,
+      "duration": "176 phút"
+    },
+    {
+      "id": 5,
+      "title": "Fast X",
+      "poster": "https://m.media-amazon.com/images/I/91XQ9Y0aZfL._AC_SL1500_.jpg",
+      "genre": "Hành động, Phiêu lưu",
+      "rating": 7,
+      "duration": "140 phút"
+    },
+    {
+      "id": 6,
+      "title": "Oppenheimer",
+      "poster": "https://m.media-amazon.com/images/I/71nIfMJgFGL._AC_SL1500_.jpg",
+      "genre": "Tiểu sử, Chính kịch",
+      "rating": 8.8,
+      "duration": "180 phút"
+    }
+  ]
+}
