@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import "./Header.css"; // Assuming you have a CSS file for styling
 const Header = () => {
   const navigate = useNavigate();
   // Check user login
@@ -62,7 +63,20 @@ const Header = () => {
 
           {/* Main Nav */}
           <nav className="main-nav">
-            <a className="nav-link" onClick={() => navigate("/")}>Lịch chiếu</a>
+          <div className="nav-item dropdown">
+  <a className="nav-link dropdown-toggle" href="#">
+    Lịch chiếu
+  </a>
+  <div className="dropdown-menu">
+    <a className="dropdown-item" onClick={() => navigate("/ScheduleToday")}>
+      Lịch chiếu hôm nay
+    </a>
+    <a className="dropdown-item" onClick={() => navigate("/NowShowing")}>
+      Phim đang chiếu
+    </a>
+  </div>
+  
+</div>
             <div
               className="nav-link dropdown-cinema"
               ref={dropdownRef}
