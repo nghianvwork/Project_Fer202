@@ -19,7 +19,7 @@ import EditMovie from './Auth/EditMovie';
 import ShowtimeForm from './Auth/ShowtimeForm';
 import OfferList from './Auth/OfferList';
 import OfferDetail from './Auth/OfferDetail';
-import CinemaDetail from './Component/CinemaDetail';
+
 import ScheduleToday from './Auth/Scheduletoday';
 import NowShowing from './Auth/NowShowing';
 import MovieBooking from './Auth/MovieBooking';
@@ -34,7 +34,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/profile' element={<Profile />} />
         <Route path="/movies/:id" element={<MovieDetail />} />
-        <Route path='/signup' element={<Register />} />
+        <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path="/admin" element={<PrivateRole adminOnly={true}><AdminDashboard /></PrivateRole>} />
         <Route path="/edit-movie/:id" element={<PrivateRole adminOnly={true}><EditMovie /></PrivateRole>} />

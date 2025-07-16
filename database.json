@@ -10,10 +10,34 @@
       "description": "Jake Sully sống cùng gia đình mới trên hành tinh Pandora. Khi một mối đe dọa quen thuộc trở lại...",
       "trailerUrl": "https://www.youtube.com/embed/d9MyW72ELq0",
       "showtimes": [
-        { "id": 1, "time": "09:00", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 120000 },
-        { "id": 2, "time": "14:30", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 150000 },
-        { "id": 3, "time": "19:45", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 180000 },
-        { "id": 4, "time": "22:00", "date": "2025-06-18", "cinema": "CGV Vincom", "price": 150000 }
+        {
+          "id": 1,
+          "time": "09:00",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 2,
+          "time": "14:30",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        },
+        {
+          "id": 3,
+          "time": "19:45",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 180000
+        },
+        {
+          "id": 4,
+          "time": "22:00",
+          "date": "2025-06-18",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        }
       ]
     },
     {
@@ -26,9 +50,27 @@
       "description": "Pete 'Maverick' Mitchell trở lại sau 30 năm phục vụ trong hải quân...",
       "trailerUrl": "https://www.youtube.com/embed/giXco2jaZ_4",
       "showtimes": [
-        { "id": 5, "time": "10:15", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 140000 },
-        { "id": 6, "time": "15:00", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 170000 },
-        { "id": 7, "time": "20:30", "date": "2025-06-18", "cinema": "Lotte Cinema", "price": 200000 }
+        {
+          "id": 5,
+          "time": "10:15",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 140000
+        },
+        {
+          "id": 6,
+          "time": "15:00",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 170000
+        },
+        {
+          "id": 7,
+          "time": "20:30",
+          "date": "2025-06-18",
+          "cinema": "Lotte Cinema",
+          "price": 200000
+        }
       ]
     },
     {
@@ -41,10 +83,34 @@
       "description": "Với mặt nạ mới, Batman phải tìm hiểu về nỗi sợ hãi ẩn giấu của Gotham...",
       "trailerUrl": "https://www.youtube.com/embed/mqqft2x_Aa4",
       "showtimes": [
-        { "id": 8, "time": "08:45", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 110000 },
-        { "id": 9, "time": "13:30", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 140000 },
-        { "id": 10, "time": "18:00", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 170000 },
-        { "id": 11, "time": "21:15", "date": "2025-06-19", "cinema": "Galaxy Nguyễn Du", "price": 150000 }
+        {
+          "id": 8,
+          "time": "08:45",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 110000
+        },
+        {
+          "id": 9,
+          "time": "13:30",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 140000
+        },
+        {
+          "id": 10,
+          "time": "18:00",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 170000
+        },
+        {
+          "id": 11,
+          "time": "21:15",
+          "date": "2025-06-19",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 150000
+        }
       ]
     },
     {
@@ -57,9 +123,27 @@
       "description": "Câu chuyện về cuộc đời và công trình của nhà vật lý J. Robert Oppenheimer...",
       "trailerUrl": "https://www.youtube.com/embed/uYPbbksJxIg",
       "showtimes": [
-        { "id": 12, "time": "09:30", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 160000 },
-        { "id": 13, "time": "14:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 190000 },
-        { "id": 14, "time": "18:45", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 220000 }
+        {
+          "id": 12,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 160000
+        },
+        {
+          "id": 13,
+          "time": "14:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 190000
+        },
+        {
+          "id": 14,
+          "time": "18:45",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 220000
+        }
       ]
     },
     {
@@ -72,9 +156,27 @@
       "description": "Barbie rời khỏi thế giới hồng hào của mình để khám phá thế giới con người...",
       "trailerUrl": "https://www.youtube.com/embed/pBk4NYhWNMM",
       "showtimes": [
-        { "id": 15, "time": "11:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 130000 },
-        { "id": 16, "time": "16:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 160000 },
-        { "id": 17, "time": "20:00", "date": "2025-06-18", "cinema": "BHD Star, Cộng Hòa", "price": 180000 }
+        {
+          "id": 15,
+          "time": "11:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 130000
+        },
+        {
+          "id": 16,
+          "time": "16:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 160000
+        },
+        {
+          "id": 17,
+          "time": "20:00",
+          "date": "2025-06-18",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 180000
+        }
       ]
     },
     {
@@ -87,9 +189,27 @@
       "description": "Câu chuyện về một nhóm trộm sử dụng giấc mơ để đánh cắp những bí mật quan trọng.",
       "trailerUrl": "https://www.youtube.com/embed/YoHD9XEInc0",
       "showtimes": [
-        { "id": 18, "time": "09:00", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 130000 },
-        { "id": 19, "time": "13:30", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 160000 },
-        { "id": 20, "time": "18:00", "date": "2025-06-19", "cinema": "CGV Vincom", "price": 200000 }
+        {
+          "id": 18,
+          "time": "09:00",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 130000
+        },
+        {
+          "id": 19,
+          "time": "13:30",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        },
+        {
+          "id": 20,
+          "time": "18:00",
+          "date": "2025-06-19",
+          "cinema": "CGV Vincom",
+          "price": 200000
+        }
       ]
     },
     {
@@ -102,9 +222,27 @@
       "description": "Những con khủng long trở lại trong một công viên giải trí khổng lồ với những mối nguy hiểm mới.",
       "trailerUrl": "https://www.youtube.com/embed/v7MGUNV8MxU",
       "showtimes": [
-        { "id": 21, "time": "10:00", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 140000 },
-        { "id": 22, "time": "15:30", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 170000 },
-        { "id": 23, "time": "20:45", "date": "2025-06-19", "cinema": "Lotte Cinema", "price": 190000 }
+        {
+          "id": 21,
+          "time": "10:00",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 140000
+        },
+        {
+          "id": 22,
+          "time": "15:30",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 170000
+        },
+        {
+          "id": 23,
+          "time": "20:45",
+          "date": "2025-06-19",
+          "cinema": "Lotte Cinema",
+          "price": 190000
+        }
       ]
     },
     {
@@ -117,9 +255,27 @@
       "description": "Barry Allen trở thành The Flash, đối mặt với các kẻ thù và một vũ trụ mới.",
       "trailerUrl": "https://www.youtube.com/embed/hebWYacbdvc",
       "showtimes": [
-        { "id": 24, "time": "08:30", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 120000 },
-        { "id": 25, "time": "14:00", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 150000 },
-        { "id": 26, "time": "18:30", "date": "2025-06-20", "cinema": "Galaxy Nguyễn Du", "price": 170000 }
+        {
+          "id": 24,
+          "time": "08:30",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 120000
+        },
+        {
+          "id": 25,
+          "time": "14:00",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 150000
+        },
+        {
+          "id": 26,
+          "time": "18:30",
+          "date": "2025-06-20",
+          "cinema": "Galaxy Nguyễn Du",
+          "price": 170000
+        }
       ]
     },
     {
@@ -132,9 +288,27 @@
       "description": "Spider-Man đối mặt với những mối đe dọa từ các vũ trụ khác.",
       "trailerUrl": "https://www.youtube.com/embed/JfVOs4VSpmA",
       "showtimes": [
-        { "id": 27, "time": "09:30", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 140000 },
-        { "id": 28, "time": "14:45", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 170000 },
-        { "id": 29, "time": "19:30", "date": "2025-06-20", "cinema": "BHD Star, Cộng Hòa", "price": 200000 }
+        {
+          "id": 27,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 140000
+        },
+        {
+          "id": 28,
+          "time": "14:45",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 170000
+        },
+        {
+          "id": 29,
+          "time": "19:30",
+          "date": "2025-06-20",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 200000
+        }
       ]
     },
     {
@@ -147,9 +321,27 @@
       "description": "Doctor Strange bước vào thế giới đa vũ trụ để giải cứu thế giới khỏi những mối đe dọa khủng khiếp.",
       "trailerUrl": "https://www.youtube.com/embed/aWzlQ2N6qqg",
       "showtimes": [
-        { "id": 30, "time": "10:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 150000 },
-        { "id": 31, "time": "15:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 180000 },
-        { "id": 32, "time": "20:00", "date": "2025-06-20", "cinema": "Mega GS, Hà Nội", "price": 220000 }
+        {
+          "id": 30,
+          "time": "10:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 150000
+        },
+        {
+          "id": 31,
+          "time": "15:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 180000
+        },
+        {
+          "id": 32,
+          "time": "20:00",
+          "date": "2025-06-20",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 220000
+        }
       ]
     },
     {
@@ -162,9 +354,27 @@
       "description": "Ethan Hunt và nhóm phải đối mặt với những nguy hiểm lớn lao trong cuộc chiến chống lại khủng bố.",
       "trailerUrl": "https://www.youtube.com/embed/wb49-oV0F78",
       "showtimes": [
-        { "id": 33, "time": "09:30", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 160000 },
-        { "id": 34, "time": "14:15", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 190000 },
-        { "id": 35, "time": "18:45", "date": "2025-06-20", "cinema": "Lotte Cinema", "price": 220000 }
+        {
+          "id": 33,
+          "time": "09:30",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 160000
+        },
+        {
+          "id": 34,
+          "time": "14:15",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 190000
+        },
+        {
+          "id": 35,
+          "time": "18:45",
+          "date": "2025-06-20",
+          "cinema": "Lotte Cinema",
+          "price": 220000
+        }
       ]
     },
     {
@@ -177,9 +387,27 @@
       "description": "Trong một thế giới đầy bạo lực, Katniss Everdeen phải chiến đấu để sống sót trong các trò chơi chết chóc.",
       "trailerUrl": "https://www.youtube.com/embed/mfmrPu43DF8",
       "showtimes": [
-        { "id": 36, "time": "11:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 130000 },
-        { "id": 37, "time": "15:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 160000 },
-        { "id": 38, "time": "20:00", "date": "2025-06-21", "cinema": "CGV Vincom", "price": 190000 }
+        {
+          "id": 36,
+          "time": "11:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 130000
+        },
+        {
+          "id": 37,
+          "time": "15:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        },
+        {
+          "id": 38,
+          "time": "20:00",
+          "date": "2025-06-21",
+          "cinema": "CGV Vincom",
+          "price": 190000
+        }
       ]
     },
     {
@@ -192,9 +420,27 @@
       "description": "Anna và Elsa tiếp tục cuộc hành trình mới để khám phá những bí ẩn trong vương quốc của họ.",
       "trailerUrl": "https://www.youtube.com/embed/Zi4LMpSDccc",
       "showtimes": [
-        { "id": 39, "time": "09:30", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 120000 },
-        { "id": 40, "time": "14:00", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 140000 },
-        { "id": 41, "time": "17:30", "date": "2025-06-21", "cinema": "BHD Star, Cộng Hòa", "price": 160000 }
+        {
+          "id": 39,
+          "time": "09:30",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 120000
+        },
+        {
+          "id": 40,
+          "time": "14:00",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 140000
+        },
+        {
+          "id": 41,
+          "time": "17:30",
+          "date": "2025-06-21",
+          "cinema": "BHD Star, Cộng Hòa",
+          "price": 160000
+        }
       ]
     },
     {
@@ -207,9 +453,27 @@
       "description": "Shang-Chi phải đối mặt với quá khứ của mình khi anh bị cuốn vào một tổ chức tội phạm bí mật.",
       "trailerUrl": "https://www.youtube.com/embed/8YjFbMbfXaQ",
       "showtimes": [
-        { "id": 42, "time": "10:15", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 150000 },
-        { "id": 43, "time": "15:00", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 170000 },
-        { "id": 44, "time": "20:30", "date": "2025-06-21", "cinema": "Mega GS, Hà Nội", "price": 190000 }
+        {
+          "id": 42,
+          "time": "10:15",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 150000
+        },
+        {
+          "id": 43,
+          "time": "15:00",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 170000
+        },
+        {
+          "id": 44,
+          "time": "20:30",
+          "date": "2025-06-21",
+          "cinema": "Mega GS, Hà Nội",
+          "price": 190000
+        }
       ]
     },
     {
@@ -222,9 +486,27 @@
       "description": "Bốn người bạn bị cuốn vào trò chơi Jumanji và phải chiến đấu để sống sót trong thế giới kỳ diệu này.",
       "trailerUrl": "https://www.youtube.com/embed/2QKg5SZ_35I",
       "showtimes": [
-        { "id": 45, "time": "09:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 120000 },
-        { "id": 46, "time": "14:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 140000 },
-        { "id": 47, "time": "18:00", "date": "2025-06-22", "cinema": "CGV Vincom", "price": 160000 }
+        {
+          "id": 45,
+          "time": "09:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 120000
+        },
+        {
+          "id": 46,
+          "time": "14:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 140000
+        },
+        {
+          "id": 47,
+          "time": "18:00",
+          "date": "2025-06-22",
+          "cinema": "CGV Vincom",
+          "price": 160000
+        }
       ]
     },
     {
@@ -237,9 +519,27 @@
       "description": "Một chú sư tử trẻ phải đối mặt với thử thách lớn nhất trong cuộc đời mình để trở thành vua của Savanna.",
       "trailerUrl": "https://www.youtube.com/embed/7TavVZMewpY",
       "showtimes": [
-        { "id": 48, "time": "10:00", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 130000 },
-        { "id": 49, "time": "14:30", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 150000 },
-        { "id": 50, "time": "19:00", "date": "2025-06-22", "cinema": "Lotte Cinema", "price": 180000 }
+        {
+          "id": 48,
+          "time": "10:00",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 130000
+        },
+        {
+          "id": 49,
+          "time": "14:30",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 150000
+        },
+        {
+          "id": 50,
+          "time": "19:00",
+          "date": "2025-06-22",
+          "cinema": "Lotte Cinema",
+          "price": 180000
+        }
       ]
     },
     {
@@ -252,13 +552,30 @@
       "description": "Neo quay lại với thế giới ảo của Matrix và đối mặt với một nhiệm vụ mới.",
       "trailerUrl": "https://www.youtube.com/embed/9ix7TUGVYIo",
       "showtimes": [
-        { "id": 51, "time": "09:15", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 150000 },
-        { "id": 52, "time": "14:00", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 170000 },
-        { "id": 53, "time": "18:30", "date": "2025-06-23", "cinema": "CGV Vincom", "price": 200000 }
+        {
+          "id": 51,
+          "time": "09:15",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 150000
+        },
+        {
+          "id": 52,
+          "time": "14:00",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 170000
+        },
+        {
+          "id": 53,
+          "time": "18:30",
+          "date": "2025-06-23",
+          "cinema": "CGV Vincom",
+          "price": 200000
+        }
       ]
     },
     {
-
       "id": "6263",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -268,11 +585,16 @@
       "description": "Đại chiến giữa các robot",
       "trailerUrl": "https://www.youtube.com/embed/itnqEauWQZM",
       "showtimes": [
-        { "id": 1, "time": "9:00", "date": "2025-07-03", "cinema": "CGV Vincom", "price": "120000" }
+        {
+          "id": 1,
+          "time": "9:00",
+          "date": "2025-07-03",
+          "cinema": "CGV Vincom",
+          "price": "120000"
+        }
       ]
     },
     {
-
       "id": "2378",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -282,12 +604,17 @@
       "description": "Đại chiến robot",
       "trailerUrl": "https://www.youtube.com/embed/itnqEauWQZM",
       "showtimes": [
-        { "id": 1, "time": "9:00", "date": "2025-07-04", "cinema": "CGV Vincom", "price": "120000" }
+        {
+          "id": 1,
+          "time": "9:00",
+          "date": "2025-07-04",
+          "cinema": "CGV Vincom",
+          "price": "120000"
+        }
       ]
     }
   ],
   "users": [
-
     {
       "id": "ff26",
       "username": "nghianv",
@@ -307,9 +634,18 @@
       "lastname": "Duong",
       "phone": "0963289961",
       "role": "user"
+    },
+    {
+      "id": "b4da",
+      "username": "nghianv10",
+      "password": "Nghia08@",
+      "email": "nghianv@gmail.com",
+      "firstname": "Nguyễn Văn",
+      "lastname": "Nghĩa",
+      "phone": "0346492900",
+      "role": "user"
     }
   ],
-
   "comments": [
     {
       "id": "1",
@@ -355,12 +691,23 @@
       "movie": "Inside Out 2",
       "likes": 35,
       "time": "5 phút trước"
+    },
+    
+   
+   
+    {
+      "id": "1752419899076",
+      "movie": "Avatar: The Way of Water",
+      "user": "Nguyễn Văn",
+      "avatar": "https://i.pravatar.cc/40?u=nghianv10",
+      "comment": "hay",
+      "time": "7/13/2025, 10:18:19 PM",
+      "likes": 0
     }
   ],
-
   "Offers": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Combo Siêu Phẩm Snack",
       "description": "30% off khi mua combo bắp nước + snack siêu giòn",
       "discount": "30%",
@@ -368,7 +715,7 @@
       "image": "https://www.galaxycine.vn/media/2025/6/18/1135_1750231663367.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Snack Nóng Giòn Tan chỉ 89K",
       "description": "Combo snack mới ra mắt với giá cực sốc",
       "discount": "Giá chỉ 89K",
@@ -376,7 +723,7 @@
       "image": "https://www.galaxycine.vn/media/2025/5/21/snack-nong-hoi--vua-xem-phim-vua-thoi---1_1747813632010.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Thứ 3 Vui Vẻ",
       "description": "Giảm tới 50% giá vé vào thứ 3 hàng tuần",
       "discount": "Giảm 50%",
@@ -384,7 +731,7 @@
       "image": "https://www.galaxycine.vn/media/2024/4/16/digital-1135x660_1713257506992.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Ưu đãi VNPay",
       "description": "Giảm ngay 10K khi thanh toán qua VNPay",
       "discount": "Giảm 10K",
@@ -392,7 +739,7 @@
       "image": "https://www.galaxycine.vn/media/2025/4/16/resize-vnpaygalaxy-1135-x-660_1744798019703.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Thành Viên Galaxy Cinema",
       "description": "Tích điểm, nhận ưu đãi và quà tặng bất ngờ",
       "discount": "Tích điểm đổi quà",
@@ -400,7 +747,7 @@
       "image": "https://www.galaxycine.vn/media/2025/1/22/bangqltv-digital-1135x660_1737516350592.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "U22 Ưu Đãi",
       "description": "Giá vé ưu đãi chỉ từ 45.000đ dành cho sinh viên U22",
       "discount": "Chỉ 45.000đ",
@@ -408,7 +755,7 @@
       "image": "https://www.galaxycine.vn/media/2023/8/25/combo-fb-post-03_1692950061813.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Ngày Tri Ân",
       "description": "Vé đồng giá 55.000đ vào mỗi thứ 2 cuối tháng",
       "discount": "Giá vé 55.000đ",
@@ -416,7 +763,7 @@
       "image": "https://www.galaxycine.vn/media/2025/7/3/1135_1751514599374.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Ưu đãi ShopeePay",
       "description": "Giảm 5.000đ khi mua vé thanh toán ShopeePay",
       "discount": "Giảm 5.000đ",
@@ -424,8 +771,6 @@
       "image": "https://www.galaxycine.vn/media/2025/7/2/shopee-x-galaxy-3_1751467529580.jpg"
     }
   ],
-
-
   "nowShowing": [
     {
       "id": "1",
@@ -474,6 +819,22 @@
       "genre": "Tiểu sử, Chính kịch",
       "rating": 8.8,
       "duration": "180 phút"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "1",
+      "movieId": 5,
+      "userId": "ff26",
+      "username": "nghianv",
+      "rating": 8
+    },
+    {
+      "id": 1752685900495,
+      "movieId": "1",
+      "userId": "b4da",
+      "username": "Nghĩa",
+      "rating": 5
     }
   ]
 }

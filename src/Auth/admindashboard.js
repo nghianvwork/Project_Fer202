@@ -3,7 +3,7 @@ import { Trash2, Edit, PlusCircle, List } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import ShowtimeForm from "./ShowtimeForm";
 import AdminHeader from "../Header/AdminHeader";
-
+import "./admindashboard.css";
 const API_MOVIES = "http://localhost:9999/moviesData";
 const API_USERS = "http://localhost:9999/users";
 
@@ -24,6 +24,7 @@ export default function AdminDashboard() {
       setMovies(mv);
       setUsers(us);
     };
+
     fetchAll();
   }, []);
 

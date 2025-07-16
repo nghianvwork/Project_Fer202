@@ -124,9 +124,7 @@ const Header = () => {
               <a className="nav-link" href="/admin">Quản trị</a>
             )}
             <a className="nav-link" onClick={() => navigate("/offerlist")}>Ưu đãi</a>
-            <button className="login-btn" onClick={() => navigate('/create-movie')}>
-              Thêm phim
-            </button>
+            
 
           </nav>
 
