@@ -10,6 +10,7 @@ function Register() {
   const [firstname, setFirstname] = useState("");
    const [lastname, setLastname] = useState("");
     const [phone, setPhone] = useState("");
+    const [role, setRole] = useState("user"); 
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -17,7 +18,7 @@ function Register() {
     e.preventDefault();
     setIsLoading(true);
 
-    let user = { username, password, email, firstname,lastname,phone };
+    let user = { username, password, email, firstname,lastname,phone,role };
 
     let response = await fetch("http://localhost:9999/users", {
       method: "POST",

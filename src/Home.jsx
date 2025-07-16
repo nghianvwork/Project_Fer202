@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import HeroBanner from "./Banner";
 import Header from "./Header/Header";
-
+import { Link } from "react-router-dom";
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
   { key: "upcoming", label: "Sắp chiếu" },
@@ -15,16 +15,22 @@ function Home() {
   const [tab, setTab] = useState("showing");
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const [showTrailer, setShowTrailer] = useState(false);
+  const [trailerUrl, setTrailerUrl] = useState("");
 
-  useEffect(() => {
-    fetch("http://localhost:9999/moviesData")
-      .then(res => res.json())
-      .then(data => {
-        setMovies(data);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
+ useEffect(() => {
+  fetch("http://localhost:9999/moviesData")
+    .then(res => res.json())
+    .then(data => {
+      console.log(data);
+      setMovies(data); 
+      setLoading(false);
+    })
+    .catch(() => {
+      setMovies([]); 
+      setLoading(false);
+    });
+}, []);
 
   const filteredMovies = movies.filter(movie => {
     if (tab === "showing") {
@@ -48,6 +54,8 @@ function Home() {
     return true;
   });
 
+  
+ 
   if (loading) {
     return (
       <div className="loading-container">
@@ -93,7 +101,13 @@ function Home() {
                     <span className="rating-score">{movie.rating}</span>
                   </div>
                   <div className="movie-overlay">
-                    <button className="btn-play">▶</button>
+                   <button
+                   className="btn-play"
+                   onClick={() => {
+                   setTrailerUrl(movie.trailerUrl);
+                    setShowTrailer(true);
+                  }}
+                  >▶</button>
                     <button
                       className="btn-buy"
                       onClick={() => navigate(`/moviebooking/${movie.id}`)}
@@ -103,7 +117,9 @@ function Home() {
                   </div>
                 </div>
                 <div className="movie-info">
-                  <h3 className="movie-title">{movie.title}</h3>
+                  <Link to={`/movies/${movie.id}`}>
+                    <h3>{movie.title}</h3>
+                  </Link>
                   <p>{movie.genre}</p>
                   <p>{movie.duration}</p>
                 </div>
@@ -112,6 +128,36 @@ function Home() {
           </div>
         </div>
       </div>
+    {showTrailer && trailerUrl && (
+  <div
+    style={{
+      position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh",
+      background: "rgba(0,0,0,0.7)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999
+    }}
+    onClick={() => setShowTrailer(false)}
+  >
+    <div style={{ position: "relative", width: "80vw", maxWidth: 800 }}>
+      <iframe
+        src={trailerUrl}
+        title="Trailer"
+        width="100%"
+        height="450"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        style={{ borderRadius: 12, background: "#000" }}
+      ></iframe>
+      <button
+        style={{
+          position: "absolute", top: 8, right: 8, background: "#fff", border: "none",
+          borderRadius: "50%", width: 36, height: 36, fontSize: 20, cursor: "pointer"
+        }}
+        onClick={e => { e.stopPropagation(); setShowTrailer(false); }}
+        title="Đóng"
+      >×</button>
+    </div>
+  </div>
+)}
     </div>
   );
 }

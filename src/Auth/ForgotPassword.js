@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom"; // Thêm dòng này
 import "./ForgotPassword.css"; // Tạo file này để custom thêm
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,6 +12,7 @@ function ForgotPassword() {
   const [message, setMessage] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [type, setType] = useState("info"); // Kiểu alert
+  const navigate = useNavigate(); // Thêm dòng này
 
   const handleEmailSubmit = async (e) => {
     e.preventDefault();
@@ -39,8 +41,11 @@ function ForgotPassword() {
       await axios.patch(`http://localhost:9999/users/${userId}`, {
         password: newPassword,
       });
-      setMessage("Đổi mật khẩu thành công! Hãy đăng nhập lại.");
+      setMessage("Đổi mật khẩu thành công! Đang chuyển về trang đăng nhập...");
       setType("success");
+      setTimeout(() => {
+        navigate("/login"); // Chuyển về trang login sau 1.5s
+      }, 1500);
       setStep(1);
       setEmail("");
       setNewPassword("");

@@ -92,7 +92,7 @@ const Header = () => {
                 style={{
                   display: showDropdown ? "block" : "none",
                   position: "absolute",
-                  top: "calc(100% + 2px)", // Chỉ cách menu 2px!
+                  top: "calc(100% + 2px)",
                   left: 0,
                   background: "#fff",
                   minWidth: 220,
@@ -133,9 +133,12 @@ const Header = () => {
             <a className="nav-link" onClick={() => navigate("/")}>Review phim</a>
             <a className="nav-link" onClick={() => navigate("/topfilm")}>Top phim</a>
             <a className="nav-link" onClick={() => navigate("/")}>Blog phim</a>
-            <button className="login-btn" onClick={() => navigate('/create-movie')}>
-              Thêm phim
-            </button>
+            {/* Phân quyền: chỉ admin thấy mục quản trị */}
+            {user && user.role === "admin" && (
+              <a className="nav-link" href="/admin">Quản trị</a>
+            )}
+            <a className="nav-link" onClick={() => navigate("/offerlist")}>Ưu đãi</a>
+            
 
           </nav>
 
@@ -144,32 +147,27 @@ const Header = () => {
             <button className="search-btn" title="Tìm kiếm"><span role="img" aria-label="search">🔍</span></button>
             {!user ? (
               <>
-             
-                {/* <button className="login-btn" onClick={handleLogin}>Đăng Nhập</button>
-                <button className="login-btn" onClick={handleSignup}>Đăng Ký</button> */}
-              <div className="member-badge">
-                <Link to={"/login"}>
-                Đăng nhập
-                </Link>
-              </div>
-              <div className="member-badge">
-                <Link to={"/register"}>
-                Đăng kí
-                </Link>
-              </div>
-                
+                <div className="member-badge">
+                  <Link to={"/login"}>
+                    Đăng nhập
+                  </Link>
+                </div>
+                <div className="member-badge">
+                  <Link to={"/register"}>
+                    Đăng kí
+                  </Link>
+                </div>
               </>
             ) : (
               <>
-               
                 <div className="member-badge">
-                <Link to={"/login"}>
-                Đăng xuất
-                </Link>
-              </div>
+                  <span style={{ cursor: "pointer" }} onClick={handleLogout}>
+                    Đăng xuất
+                  </span>
+                </div>
                 <div className="member-badge">
                   <Link to={"/profile"}>
-                    User
+                    {user.firstname ? user.firstname : "User"}
                   </Link>
                 </div>
               </>
