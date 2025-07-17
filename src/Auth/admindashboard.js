@@ -10,22 +10,16 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
+  PieChart,
+  Pie,
+  Cell,
+  Legend,
 } from "recharts";
-
 
 import "./admindashboard.css";
 
-
-
-import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  PieChart, Pie, Cell, Legend
-} from "recharts";
-
-
-
+// API
 const API_MOVIES = "http://localhost:9999/moviesData";
 const API_USERS = "http://localhost:9999/users";
 const API_BOOKINGS = "http://localhost:9999/bookings";
@@ -136,7 +130,6 @@ export default function AdminDashboard() {
   };
 
   // Xoá user
-
   const handleDeleteUser = async (id) => {
     if (!window.confirm("Xác nhận xoá tài khoản này?")) return;
     await fetch(`${API_USERS}/${id}`, { method: "DELETE" });
@@ -219,6 +212,37 @@ export default function AdminDashboard() {
     bookings: bookings.filter((bk) => bk.movieId === mv.id).length,
   }));
 
+  // Style phụ
+  const statBoxStyle = {
+    background: "#fff",
+    borderRadius: 18,
+    boxShadow: "0 2px 18px #8b93b320",
+    padding: 22,
+    minWidth: 200,
+    textAlign: "center",
+    marginBottom: 18,
+    flex: "1 1 210px"
+  };
+  function tabBtnStyle(active, alt) {
+    return {
+      padding: "10px 20px",
+      borderRadius: 10,
+      margin: 4,
+      fontWeight: 600,
+      border: "none",
+      background: active
+        ? "#667eea"
+        : alt
+        ? "#e7e7e7"
+        : "#f5f5fa",
+      color: active
+        ? "#fff"
+        : "#333",
+      cursor: "pointer",
+      fontSize: 16
+    };
+  }
+
   return (
     <div
       style={{
@@ -279,58 +303,7 @@ export default function AdminDashboard() {
         </button>
       </div>
 
-
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-        {/* Thống kê tổng quan */}
-        {tab === "dashboard" && (
-          <div
-            style={{
-              display: "flex",
-              gap: 28,
-              justifyContent: "center",
-              marginBottom: 38,
-              flexWrap: "wrap",
-            }}
-          >
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="movie" style={{ fontSize: 28 }}>
-                🎬
-              </span>
-              <div style={{ fontSize: 32, fontWeight: 700 }}>
-                {movies.length}
-              </div>
-              <div>Phim</div>
-            </div>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="cal" style={{ fontSize: 28 }}>
-                📅
-              </span>
-              <div style={{ fontSize: 32, fontWeight: 700 }}>
-                {totalShowtimes}
-              </div>
-              <div>Lịch chiếu</div>
-            </div>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="user" style={{ fontSize: 28 }}>
-                👤
-              </span>
-              <div style={{ fontSize: 32, fontWeight: 700 }}>
-                {users.length}
-              </div>
-              <div>Thành viên</div>
-            </div>
-            <div className="admin-stat" style={statBoxStyle}>
-              <span role="img" aria-label="booking" style={{ fontSize: 28 }}>
-                🎟️
-              </span>
-              <div style={{ fontSize: 32, fontWeight: 700 }}>
-                {bookings.length}
-              </div>
-              <div>Lượt đặt</div>
-            </div>
-          </div>
-
-      <div style={{maxWidth: 1200, margin: "0 auto"}}>
         {/* Thống kê tổng quan + Biểu đồ */}
         {tab === "dashboard" && (
           <>
@@ -349,6 +322,15 @@ export default function AdminDashboard() {
                 <span role="img" aria-label="user" style={{fontSize: 28}}>👤</span>
                 <div style={{fontSize: 32, fontWeight: 700}}>{users.length}</div>
                 <div>Thành viên</div>
+              </div>
+              <div className="admin-stat" style={statBoxStyle}>
+                <span role="img" aria-label="booking" style={{ fontSize: 28 }}>
+                  🎟️
+                </span>
+                <div style={{ fontSize: 32, fontWeight: 700 }}>
+                  {bookings.length}
+                </div>
+                <div>Lượt đặt</div>
               </div>
             </div>
             {/* --- Biểu đồ thống kê --- */}
@@ -398,7 +380,6 @@ export default function AdminDashboard() {
               </div>
             </div>
           </>
-
         )}
 
         {/* Quản lý phim */}
@@ -430,17 +411,6 @@ export default function AdminDashboard() {
                 mới
               </button>
             </div>
-
-            <table
-              className="table table-bordered"
-              style={{
-                background: "#fff",
-                borderRadius: 10,
-                overflow: "hidden",
-                width: "100%",
-              }}
-            >
-              <thead style={{ background: "#f2f2f2" }}>
 
             {/* --- Bộ lọc --- */}
             <div style={{
@@ -538,9 +508,16 @@ export default function AdminDashboard() {
             </div>
             {/* --- Kết thúc bộ lọc --- */}
 
-            <table className="table table-bordered" style={{background: "#fff", borderRadius: 10, overflow: "hidden", width: "100%"}}>
-              <thead style={{background: "#f2f2f2"}}>
-
+            <table
+              className="table table-bordered"
+              style={{
+                background: "#fff",
+                borderRadius: 10,
+                overflow: "hidden",
+                width: "100%",
+              }}
+            >
+              <thead style={{ background: "#f2f2f2" }}>
                 <tr>
                   <th>#</th>
                   <th>Poster</th>
@@ -874,26 +851,3 @@ export default function AdminDashboard() {
     </div>
   );
 }
-
-// CSS inline cho box thống kê và button tab
-const statBoxStyle = {
-  background: "#fff",
-  borderRadius: 18,
-  minWidth: 170,
-  padding: "24px 22px 10px 22px",
-  boxShadow: "0 2px 18px #8b93b320",
-  textAlign: "center",
-};
-const tabBtnStyle = (active, accent) => ({
-  background: active ? "#764ba2" : accent ? "#e0e7ef" : "#fff",
-  color: active ? "#fff" : accent ? "#333" : "#764ba2",
-  fontWeight: 600,
-  border: "1px solid #eee",
-  borderRadius: 8,
-  padding: "8px 20px",
-  margin: "0 6px",
-  fontSize: 16,
-  boxShadow: active ? "0 2px 8px #764ba220" : "none",
-  cursor: "pointer",
-  outline: "none",
-});

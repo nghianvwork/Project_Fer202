@@ -13,147 +13,147 @@
         {
           "id": 10001,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10002,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10003,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10004,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10005,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10006,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10007,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10008,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10009,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10010,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10011,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10012,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10013,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10014,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10015,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10016,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10017,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10018,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10019,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10020,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10021,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -172,147 +172,147 @@
         {
           "id": 10022,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10023,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10024,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10025,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10026,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10027,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10028,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10029,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10030,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10031,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10032,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10033,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10034,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10035,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10036,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10037,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10038,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10039,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10040,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10041,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10042,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -331,147 +331,147 @@
         {
           "id": 10043,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10044,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10045,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10046,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10047,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10048,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10049,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10050,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10051,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10052,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10053,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10054,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10055,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10056,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10057,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10058,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10059,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10060,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10061,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10062,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10063,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -490,147 +490,147 @@
         {
           "id": 10064,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10065,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10066,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10067,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10068,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10069,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10070,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10071,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10072,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10073,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10074,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10075,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10076,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10077,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10078,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10079,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10080,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10081,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10082,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10083,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10084,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -649,147 +649,147 @@
         {
           "id": 10085,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10086,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10087,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10088,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10089,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10090,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10091,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10092,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10093,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10094,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10095,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10096,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10097,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10098,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10099,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10100,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10101,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10102,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10103,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10104,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10105,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -808,147 +808,147 @@
         {
           "id": 10106,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10107,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10108,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10109,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10110,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10111,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10112,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10113,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10114,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10115,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10116,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10117,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10118,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10119,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10120,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10121,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10122,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10123,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10124,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10125,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10126,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -967,147 +967,147 @@
         {
           "id": 10127,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10128,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10129,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10130,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10131,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10132,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10133,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10134,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10135,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10136,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10137,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10138,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10139,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10140,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10141,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10142,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10143,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10144,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10145,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10146,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10147,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1126,147 +1126,147 @@
         {
           "id": 10148,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10149,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10150,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10151,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10152,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10153,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10154,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10155,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10156,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10157,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10158,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10159,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10160,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10161,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10162,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10163,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10164,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10165,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10166,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10167,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10168,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1285,147 +1285,147 @@
         {
           "id": 10169,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10170,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10171,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10172,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10173,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10174,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10175,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10176,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10177,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10178,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10179,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10180,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10181,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10182,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10183,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10184,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10185,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10186,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10187,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10188,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10189,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1444,147 +1444,147 @@
         {
           "id": 10190,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10191,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10192,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10193,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10194,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10195,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10196,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10197,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10198,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10199,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10200,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10201,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10202,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10203,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10204,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10205,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10206,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10207,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10208,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10209,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10210,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1603,147 +1603,147 @@
         {
           "id": 10211,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10212,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10213,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10214,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10215,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10216,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10217,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10218,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10219,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10220,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10221,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10222,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10223,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10224,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10225,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10226,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10227,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10228,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10229,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10230,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10231,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1762,147 +1762,147 @@
         {
           "id": 10232,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10233,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10234,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10235,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10236,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10237,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10238,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10239,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10240,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10241,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10242,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10243,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10244,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10245,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10246,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10247,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10248,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10249,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10250,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10251,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10252,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -1921,147 +1921,147 @@
         {
           "id": 10253,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10254,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10255,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10256,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10257,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10258,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10259,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10260,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10261,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10262,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10263,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10264,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10265,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10266,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10267,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10268,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10269,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10270,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10271,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10272,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10273,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2080,147 +2080,147 @@
         {
           "id": 10274,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10275,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10276,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10277,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10278,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10279,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10280,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10281,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10282,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10283,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10284,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10285,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10286,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10287,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10288,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10289,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10290,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10291,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10292,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10293,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10294,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2239,147 +2239,147 @@
         {
           "id": 10295,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10296,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10297,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10298,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10299,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10300,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10301,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10302,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10303,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10304,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10305,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10306,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10307,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10308,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10309,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10310,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10311,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10312,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10313,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10314,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10315,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2398,147 +2398,147 @@
         {
           "id": 10316,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10317,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10318,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10319,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10320,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10321,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10322,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10323,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10324,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10325,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10326,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10327,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10328,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10329,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10330,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10331,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10332,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10333,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10334,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10335,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10336,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2557,147 +2557,147 @@
         {
           "id": 10337,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10338,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10339,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10340,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10341,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10342,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10343,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10344,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10345,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10346,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10347,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10348,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10349,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10350,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10351,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10352,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10353,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10354,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10355,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10356,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10357,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2716,147 +2716,147 @@
         {
           "id": 10358,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10359,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10360,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10361,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10362,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10363,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10364,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10365,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10366,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10367,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10368,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10369,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10370,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10371,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10372,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10373,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10374,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10375,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10376,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10377,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10378,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -2875,147 +2875,147 @@
         {
           "id": 10379,
           "time": "09:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10380,
           "time": "14:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10381,
           "time": "19:00",
-          "date": "2025-07-15",
+          "date": "2025-07-17",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10382,
           "time": "09:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10383,
           "time": "14:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10384,
           "time": "19:00",
-          "date": "2025-07-16",
+          "date": "2025-07-18",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10385,
           "time": "09:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10386,
           "time": "14:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10387,
           "time": "19:00",
-          "date": "2025-07-17",
+          "date": "2025-07-19",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10388,
           "time": "09:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10389,
           "time": "14:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10390,
           "time": "19:00",
-          "date": "2025-07-18",
+          "date": "2025-07-20",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10391,
           "time": "09:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10392,
           "time": "14:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10393,
           "time": "19:00",
-          "date": "2025-07-19",
+          "date": "2025-07-21",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10394,
           "time": "09:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10395,
           "time": "14:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10396,
           "time": "19:00",
-          "date": "2025-07-20",
+          "date": "2025-07-22",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         },
         {
           "id": 10397,
           "time": "09:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "CGV Vincom",
           "price": 120000
         },
         {
           "id": 10398,
           "time": "14:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "Lotte Cinema",
           "price": 150000
         },
         {
           "id": 10399,
           "time": "19:00",
-          "date": "2025-07-21",
+          "date": "2025-07-23",
           "cinema": "BHD Star, Cộng Hòa",
           "price": 180000
         }
@@ -3042,6 +3042,16 @@
       "lastname": "Duong",
       "phone": "0963289961",
       "role": "user"
+    },
+    {
+      "id": "ae62",
+      "username": "duyanh",
+      "password": "Duyanh1@",
+      "email": "he180587hoangduyanh@gmail.com",
+      "firstname": "duy",
+      "lastname": "hẹ hẹ",
+      "phone": "0952345678",
+      "role": "admin"
     },
     {
       "id": "b4da",
@@ -3099,59 +3109,6 @@
       "movie": "Inside Out 2",
       "likes": 35,
       "time": "5 phút trước"
-    },
-    {
-      "id": "1752419205847",
-      "movie": "Avatar: The Way of Water",
-      "user": "Khách",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "hihi",
-      "time": "7/13/2025, 10:06:45 PM",
-      "likes": 0
-    },
-    {
-      "id": "1752419461504",
-      "movie": "Avatar: The Way of Water",
-      "user": "Khách",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "hehe",
-      "time": "7/13/2025, 10:11:01 PM",
-      "likes": 0
-    },
-    {
-      "id": "1752419515000",
-      "movie": "Avatar: The Way of Water",
-      "user": "Khách",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "hay quá",
-      "time": "7/13/2025, 10:11:55 PM",
-      "likes": 0
-    },
-    {
-      "id": "1752419615163",
-      "movie": "Avatar: The Way of Water",
-      "user": "Khách",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "tuyệt",
-      "time": "7/13/2025, 10:13:35 PM",
-      "likes": 0
-    },
-    {
-      "id": "1752419638307",
-      "movie": "Avatar: The Way of Water",
-      "user": "Khách",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "qua shay",
-      "time": "7/13/2025, 10:13:58 PM",
-      "likes": 0
-    },
-    {
-      "id": "1752419657491",
-      "movie": "Avatar: The Way of Water",
-      "avatar": "https://i.pravatar.cc/40?u=guest",
-      "comment": "phim",
-      "time": "7/13/2025, 10:14:17 PM",
-      "likes": 0
     },
     {
       "id": "1752419899076",
@@ -3279,6 +3236,153 @@
       "duration": "180 phút"
     }
   ],
+  "bookings": [
+    {
+      "id": "bk1",
+      "movieId": "1",
+      "userId": "ff26",
+      "seats": [
+        "D7",
+        "D8"
+      ],
+      "combo": [
+        1,
+        2
+      ],
+      "total": 240000,
+      "time": "2025-07-15T14:30:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk2",
+      "movieId": "2",
+      "userId": "9b84",
+      "seats": [
+        "A5"
+      ],
+      "combo": [],
+      "total": 120000,
+      "time": "2025-07-16T18:00:00",
+      "status": "Chưa thanh toán"
+    },
+    {
+      "id": "bk3",
+      "movieId": "3",
+      "userId": "ae62",
+      "seats": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "combo": [
+        3
+      ],
+      "total": 330000,
+      "time": "2025-07-16T19:30:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk4",
+      "movieId": "1",
+      "userId": "9b84",
+      "seats": [
+        "C5"
+      ],
+      "combo": [],
+      "total": 120000,
+      "time": "2025-07-17T10:00:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk5",
+      "movieId": "4",
+      "userId": "ff26",
+      "seats": [
+        "E10",
+        "E11"
+      ],
+      "combo": [
+        1,
+        4
+      ],
+      "total": 380000,
+      "time": "2025-07-17T20:45:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk6",
+      "movieId": "5",
+      "userId": "ae62",
+      "seats": [
+        "H7"
+      ],
+      "combo": [
+        2
+      ],
+      "total": 180000,
+      "time": "2025-07-17T15:20:00",
+      "status": "Chưa thanh toán"
+    },
+    {
+      "id": "bk7",
+      "movieId": "1",
+      "userId": "ff26",
+      "seats": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "combo": [
+        5
+      ],
+      "total": 360000,
+      "time": "2025-07-18T09:00:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk8",
+      "movieId": "2",
+      "userId": "ae62",
+      "seats": [
+        "F4"
+      ],
+      "combo": [],
+      "total": 120000,
+      "time": "2025-07-18T13:00:00",
+      "status": "Chưa thanh toán"
+    },
+    {
+      "id": "bk9",
+      "movieId": "3",
+      "userId": "9b84",
+      "seats": [
+        "C7",
+        "C8"
+      ],
+      "combo": [
+        4,
+        2
+      ],
+      "total": 280000,
+      "time": "2025-07-19T19:00:00",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": "bk10",
+      "movieId": "4",
+      "userId": "ae62",
+      "seats": [
+        "D5",
+        "D6"
+      ],
+      "combo": [
+        3
+      ],
+      "total": 300000,
+      "time": "2025-07-20T20:30:00",
+      "status": "Đã thanh toán"
+    }
+  ],
   "ratings": [
     {
       "id": "1",
@@ -3288,17 +3392,10 @@
       "rating": 8
     },
     {
-      "id": 1752553328359,
+      "id": 1752685900495,
       "movieId": "1",
       "userId": "b4da",
-      "username": "Nguyễn Văn",
-      "rating": 1
-    },
-    {
-      "id": 1752554808473,
-      "movieId": "1",
-      "userId": "ff26",
-      "username": "Nguyen Vannghianv",
+      "username": "Nghĩa",
       "rating": 5
     }
   ]
