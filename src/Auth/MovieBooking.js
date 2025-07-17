@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Star, Clock, ArrowLeft, MapPin, CreditCard, User, Phone, Mail, CheckCircle, XCircle } from "lucide-react";
 
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 const combos = [
   { id: 1, name: "Bắp ngọt nhỏ + nước ngọt", price: 49000 },
   { id: 2, name: "Bắp lớn + nước + snack", price: 79000 },
@@ -179,10 +181,145 @@ const BookingMovie = () => {
   };
   const handleBookingSuccess = () => {
     setSuccess(true);
-    setTimeout(() => {
-      navigate('/home');
-    }, 3000);
+    
   };
+const generateInvoicePDFSimple = () => {
+  const invoiceHTML = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Hóa đơn đặt vé</title>
+      <style>
+        @media print {
+          @page {
+            margin: 1cm;
+            size: A4;
+          }
+          body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+          }
+        }
+        
+        .invoice-container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          background: white;
+        }
+        
+        .header {
+          text-align: center;
+          border-bottom: 3px solid #e74c3c;
+          padding-bottom: 20px;
+          margin-bottom: 30px;
+        }
+        
+        .header h1 {
+          color: #e74c3c;
+          font-size: 24px;
+          margin: 0;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+        
+        .section {
+          margin-bottom: 20px;
+          padding: 15px;
+          border-radius: 8px;
+          border-left: 4px solid #007bff;
+          background: #f8f9fa;
+        }
+        
+        .section h3 {
+          margin: 0 0 10px 0;
+          color: #007bff;
+          font-size: 16px;
+        }
+        
+        .total-section {
+          text-align: center;
+          padding: 20px;
+          background: #e74c3c;
+          color: white;
+          border-radius: 8px;
+          margin: 20px 0;
+        }
+        
+        .total-amount {
+          font-size: 24px;
+          font-weight: bold;
+        }
+        
+        .thank-you {
+          text-align: center;
+          padding: 15px;
+          background: #d4edda;
+          border: 1px solid #c3e6cb;
+          border-radius: 8px;
+          color: #155724;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="invoice-container">
+        <div class="header">
+          <h1>HÓA ĐƠN ĐẶT VÉ XEM PHIM</h1>
+          <p>Mã hóa đơn: #${Date.now().toString().slice(-8)}</p>
+        </div>
+        
+        <div class="section">
+          <h3>🎬 Thông tin phim</h3>
+          <p><strong>Phim:</strong> ${selectedMovie?.title || 'N/A'}</p>
+          <p><strong>Ngày chiếu:</strong> ${new Date(selectedDate).toLocaleDateString('vi-VN')}</p>
+          <p><strong>Suất chiếu:</strong> ${selectedShowtime?.time} - ${selectedShowtime?.cinema}</p>
+        </div>
+        
+        <div class="section">
+          <h3>🎫 Ghế đã chọn</h3>
+          <p><strong>${selectedSeats.join(', ')}</strong></p>
+        </div>
+        
+        <div class="section">
+          <h3>👤 Thông tin khách hàng</h3>
+          <p><strong>Họ tên:</strong> ${customerInfo.name}</p>
+          <p><strong>Email:</strong> ${customerInfo.email}</p>
+          <p><strong>Số điện thoại:</strong> ${customerInfo.phone}</p>
+        </div>
+        
+        <div class="total-section">
+          <h3>💰 Tổng thanh toán</h3>
+          <div class="total-amount">${formatCurrency(totalAmount)}</div>
+        </div>
+        
+        <div class="thank-you">
+          <h3>🎉 Cảm ơn bạn đã đặt vé!</h3>
+          <p>Vui lòng mang theo hóa đơn này khi đến rạp chiếu phim</p>
+        </div>
+      </div>
+      
+      <script>
+        window.onload = function() {
+          window.print();
+          setTimeout(() => {
+            window.close();
+          }, 1000);
+        }
+      </script>
+    </body>
+    </html>
+  `;
+
+  const newWindow = window.open('', '_blank');
+  newWindow.document.write(invoiceHTML);
+  newWindow.document.close();
+  
+  setTimeout(() => {
+    navigate('/home');
+  }, 3000);
+};
 
   // ===== UI
   const renderStepIndicator = () => (
@@ -884,6 +1021,8 @@ const BookingMovie = () => {
         </div>
       )}
 
+
+
       <div style={{
         maxWidth: '1000px',
         margin: '0 auto',
@@ -959,8 +1098,28 @@ const BookingMovie = () => {
             >
               Tiếp tục
             </button>
+            
           )}
         </div>
+        {(paymentStatus === 'success' || paymentStatus === 'counter') && (
+  <button
+    style={{
+      marginTop: 16,
+      backgroundColor: "#fff",
+      color: "#ef4444",
+      border: 'none',
+      borderRadius: '8px',
+      padding: '8px 16px',
+      cursor: 'pointer',
+      fontWeight: 600
+    }}
+    onClick={generateInvoicePDFSimple}
+  >
+    Tải hóa đơn
+  </button>
+)}
+
+
         <div style={{
           marginTop: '40px',
           padding: '20px',

@@ -101,10 +101,13 @@ function Home() {
                     <span className="rating-score">{movie.rating}</span>
                   </div>
                   <div className="movie-overlay">
-                    <button
-                      className="btn-play"
-                     
-                    >▶</button>
+                   <button
+                   className="btn-play"
+                   onClick={() => {
+                   setTrailerUrl(movie.trailerUrl);
+                    setShowTrailer(true);
+                  }}
+                  >▶</button>
                     <button
                       className="btn-buy"
                       onClick={() => navigate(`/moviebooking/${movie.id}`)}
@@ -125,7 +128,36 @@ function Home() {
           </div>
         </div>
       </div>
-    
+    {showTrailer && trailerUrl && (
+  <div
+    style={{
+      position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh",
+      background: "rgba(0,0,0,0.7)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 9999
+    }}
+    onClick={() => setShowTrailer(false)}
+  >
+    <div style={{ position: "relative", width: "80vw", maxWidth: 800 }}>
+      <iframe
+        src={trailerUrl}
+        title="Trailer"
+        width="100%"
+        height="450"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        style={{ borderRadius: 12, background: "#000" }}
+      ></iframe>
+      <button
+        style={{
+          position: "absolute", top: 8, right: 8, background: "#fff", border: "none",
+          borderRadius: "50%", width: 36, height: 36, fontSize: 20, cursor: "pointer"
+        }}
+        onClick={e => { e.stopPropagation(); setShowTrailer(false); }}
+        title="Đóng"
+      >×</button>
+    </div>
+  </div>
+)}
     </div>
   );
 }

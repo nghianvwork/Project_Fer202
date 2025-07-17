@@ -1,0 +1,113 @@
+/* Tổng thể */
+.admin-stat {
+  background: #fff;
+  border-radius: 18px;
+  min-width: 170px;
+  padding: 24px 22px 10px 22px;
+  box-shadow: 0 2px 18px #8b93b320;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.admin-stat span[role="img"] {
+  font-size: 32px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.table th, .table td {
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background: #f2f2f2;
+  font-weight: 600;
+  color: #333;
+}
+
+.table tbody tr:hover {
+  background: #f6f8fa;
+}
+
+.btn, .btn-sm {
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-danger {
+  background: #ef4444;
+  color: #fff;
+}
+
+.btn-warning {
+  background: #f59e42;
+  color: #fff;
+}
+
+.btn-info {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.btn-danger:hover, .btn-warning:hover, .btn-info:hover {
+  opacity: 0.85;
+}
+
+.admin-stat {
+  transition: box-shadow 0.2s;
+}
+.admin-stat:hover {
+  box-shadow: 0 4px 24px #764ba220;
+}
+
+.admin-tabs {
+  text-align: center;
+  margin: 24px 0;
+}
+.admin-tabs button {
+  background: #fff;
+  color: #764ba2;
+  font-weight: 600;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 8px 20px;
+  margin: 0 6px;
+  font-size: 16px;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s, color 0.2s;
+}
+.admin-tabs button.active {
+  background: #764ba2;
+  color: #fff;
+  box-shadow: 0 2px 8px #764ba220;
+}
+.admin-tabs button:hover:not(.active) {
+  background: #e0e7ef;
+}
+
+@media (max-width: 900px) {
+  .admin-stat {
+    min-width: 120px;
+    padding: 16px 10px 8px 10px;
+    font-size: 15px;
+  }
+  .table th, .table td {
+    padding: 7px 4px;
+    font-size: 13px;
+  }
+}

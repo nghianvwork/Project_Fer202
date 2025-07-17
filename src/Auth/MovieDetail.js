@@ -3,7 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import "./MovieDetail.css"
 import Header from '../Header/Header';
 import Comments from './Comments';
-
+import CommentBox from './CommentBox';
+import MovieRatings from './MovieRatings';
 const MovieDetail = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
@@ -73,7 +74,9 @@ const MovieDetail = () => {
             <Link to="/" className="btn-back">← Quay lại danh sách phim</Link>
           </div>
         </div>
+        <MovieRatings movieId={movie.id} />
         <Comments movieTitle={movie.title} />
+        
       </div>
     </div>
   );

@@ -636,6 +636,7 @@
       "role": "user"
     },
     {
+
       "id": "ae62",
       "username": "duyanh",
       "password": "Duyanh1@",
@@ -644,6 +645,17 @@
       "lastname": "hẹ hẹ",
       "phone": "0952345678",
       "role": "admin"
+    },
+    {
+      "id": "b4da",
+      "username": "nghianv10",
+      "password": "Nghia08@",
+      "email": "nghianv@gmail.com",
+      "firstname": "Nguyễn Văn",
+      "lastname": "Nghĩa",
+      "phone": "0346492900",
+      "role": "user"
+
     }
   ],
   "comments": [
@@ -691,11 +703,23 @@
       "movie": "Inside Out 2",
       "likes": 35,
       "time": "5 phút trước"
+    },
+    
+   
+   
+    {
+      "id": "1752419899076",
+      "movie": "Avatar: The Way of Water",
+      "user": "Nguyễn Văn",
+      "avatar": "https://i.pravatar.cc/40?u=nghianv10",
+      "comment": "hay",
+      "time": "7/13/2025, 10:18:19 PM",
+      "likes": 0
     }
   ],
   "Offers": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Combo Siêu Phẩm Snack",
       "description": "30% off khi mua combo bắp nước + snack siêu giòn",
       "discount": "30%",
@@ -703,7 +727,7 @@
       "image": "https://www.galaxycine.vn/media/2025/6/18/1135_1750231663367.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Snack Nóng Giòn Tan chỉ 89K",
       "description": "Combo snack mới ra mắt với giá cực sốc",
       "discount": "Giá chỉ 89K",
@@ -711,7 +735,7 @@
       "image": "https://www.galaxycine.vn/media/2025/5/21/snack-nong-hoi--vua-xem-phim-vua-thoi---1_1747813632010.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Thứ 3 Vui Vẻ",
       "description": "Giảm tới 50% giá vé vào thứ 3 hàng tuần",
       "discount": "Giảm 50%",
@@ -719,7 +743,7 @@
       "image": "https://www.galaxycine.vn/media/2024/4/16/digital-1135x660_1713257506992.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Ưu đãi VNPay",
       "description": "Giảm ngay 10K khi thanh toán qua VNPay",
       "discount": "Giảm 10K",
@@ -727,7 +751,7 @@
       "image": "https://www.galaxycine.vn/media/2025/4/16/resize-vnpaygalaxy-1135-x-660_1744798019703.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Thành Viên Galaxy Cinema",
       "description": "Tích điểm, nhận ưu đãi và quà tặng bất ngờ",
       "discount": "Tích điểm đổi quà",
@@ -735,7 +759,7 @@
       "image": "https://www.galaxycine.vn/media/2025/1/22/bangqltv-digital-1135x660_1737516350592.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "U22 Ưu Đãi",
       "description": "Giá vé ưu đãi chỉ từ 45.000đ dành cho sinh viên U22",
       "discount": "Chỉ 45.000đ",
@@ -743,7 +767,7 @@
       "image": "https://www.galaxycine.vn/media/2023/8/25/combo-fb-post-03_1692950061813.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Ngày Tri Ân",
       "description": "Vé đồng giá 55.000đ vào mỗi thứ 2 cuối tháng",
       "discount": "Giá vé 55.000đ",
@@ -751,7 +775,7 @@
       "image": "https://www.galaxycine.vn/media/2025/7/3/1135_1751514599374.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Ưu đãi ShopeePay",
       "description": "Giảm 5.000đ khi mua vé thanh toán ShopeePay",
       "discount": "Giảm 5.000đ",
@@ -809,6 +833,7 @@
       "duration": "180 phút"
     }
   ],
+
    "bookings": [
   {
     "id": "bk1",
@@ -911,4 +936,22 @@
     "status": "Đã thanh toán"
   }
 ]
+
+  "ratings": [
+    {
+      "id": "1",
+      "movieId": 5,
+      "userId": "ff26",
+      "username": "nghianv",
+      "rating": 8
+    },
+    {
+      "id": 1752685900495,
+      "movieId": "1",
+      "userId": "b4da",
+      "username": "Nghĩa",
+      "rating": 5
+    }
+  ]
+
 }
