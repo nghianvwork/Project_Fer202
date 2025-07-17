@@ -576,7 +576,6 @@
       ]
     },
     {
-
       "id": "6263",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -596,7 +595,6 @@
       ]
     },
     {
-
       "id": "2378",
       "title": "Đại chiến Transformer",
       "genre": "Hành động ",
@@ -638,6 +636,17 @@
       "role": "user"
     },
     {
+
+      "id": "ae62",
+      "username": "duyanh",
+      "password": "Duyanh1@",
+      "email": "he180587hoangduyanh@gmail.com",
+      "firstname": "duy",
+      "lastname": "hẹ hẹ",
+      "phone": "0952345678",
+      "role": "admin"
+    },
+    {
       "id": "b4da",
       "username": "nghianv10",
       "password": "Nghia08@",
@@ -646,6 +655,7 @@
       "lastname": "Nghĩa",
       "phone": "0346492900",
       "role": "user"
+
     }
   ],
   "comments": [
@@ -823,6 +833,110 @@
       "duration": "180 phút"
     }
   ],
+
+   "bookings": [
+  {
+    "id": "bk1",
+    "movieId": "1",
+    "userId": "ff26",
+    "seats": ["D7", "D8"],
+    "combo": [1, 2],
+    "total": 240000,
+    "time": "2025-07-15T14:30:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk2",
+    "movieId": "2",
+    "userId": "9b84",
+    "seats": ["A5"],
+    "combo": [],
+    "total": 120000,
+    "time": "2025-07-16T18:00:00",
+    "status": "Chưa thanh toán"
+  },
+  {
+    "id": "bk3",
+    "movieId": "3",
+    "userId": "ae62",
+    "seats": ["B1", "B2", "B3"],
+    "combo": [3],
+    "total": 330000,
+    "time": "2025-07-16T19:30:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk4",
+    "movieId": "1",
+    "userId": "9b84",
+    "seats": ["C5"],
+    "combo": [],
+    "total": 120000,
+    "time": "2025-07-17T10:00:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk5",
+    "movieId": "4",
+    "userId": "ff26",
+    "seats": ["E10", "E11"],
+    "combo": [1, 4],
+    "total": 380000,
+    "time": "2025-07-17T20:45:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk6",
+    "movieId": "5",
+    "userId": "ae62",
+    "seats": ["H7"],
+    "combo": [2],
+    "total": 180000,
+    "time": "2025-07-17T15:20:00",
+    "status": "Chưa thanh toán"
+  },
+  {
+    "id": "bk7",
+    "movieId": "1",
+    "userId": "ff26",
+    "seats": ["A1", "A2", "A3"],
+    "combo": [5],
+    "total": 360000,
+    "time": "2025-07-18T09:00:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk8",
+    "movieId": "2",
+    "userId": "ae62",
+    "seats": ["F4"],
+    "combo": [],
+    "total": 120000,
+    "time": "2025-07-18T13:00:00",
+    "status": "Chưa thanh toán"
+  },
+  {
+    "id": "bk9",
+    "movieId": "3",
+    "userId": "9b84",
+    "seats": ["C7", "C8"],
+    "combo": [4, 2],
+    "total": 280000,
+    "time": "2025-07-19T19:00:00",
+    "status": "Đã thanh toán"
+  },
+  {
+    "id": "bk10",
+    "movieId": "4",
+    "userId": "ae62",
+    "seats": ["D5", "D6"],
+    "combo": [3],
+    "total": 300000,
+    "time": "2025-07-20T20:30:00",
+    "status": "Đã thanh toán"
+  }
+]
+
   "ratings": [
     {
       "id": "1",
@@ -839,4 +953,5 @@
       "rating": 5
     }
   ]
+
 }
