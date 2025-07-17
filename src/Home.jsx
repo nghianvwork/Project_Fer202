@@ -1,53 +1,74 @@
 import React, { useEffect, useState } from "react";
 import HeroBanner from "./Banner";
-import Header from "./Header/Header"
+import Header from "./Header/Header";
 import { Link } from "react-router-dom";
+
 const TABS = [
   { key: "showing", label: "Đang chiếu" },
   { key: "upcoming", label: "Sắp chiếu" },
   { key: "imax", label: "Phim IMAX" },
-  { key: "nationwide", label: "Toàn quốc" }
+  { key: "nationwide", label: "Toàn quốc" },
 ];
 
 function Home() {
   const [movies, setMovies] = useState([]);
   const [tab, setTab] = useState("showing");
+  const [selectedGenres, setSelectedGenres] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("http://localhost:9999/moviesData")
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setMovies(data);
         setLoading(false);
       })
       .catch(() => setLoading(false));
   }, []);
 
-  // Phân loại phim theo tab (giả lập, bạn phân loại thật bằng trường trong DB)
-  const filteredMovies = movies.filter(movie => {
+  // Lấy danh sách các thể loại duy nhất
+  const genres = Array.from(
+    new Set(
+      movies.flatMap((movie) =>
+        movie.genre.split(",").map((g) => g.trim())
+      )
+    )
+  );
+
+  // Toggle thể loại
+  const toggleGenre = (genre) => {
+    setSelectedGenres((prev) =>
+      prev.includes(genre)
+        ? prev.filter((g) => g !== genre)
+        : [...prev, genre]
+    );
+  };
+
+  // Lọc phim theo tab và thể loại
+  const filteredMovies = movies.filter((movie) => {
+    const today = new Date();
+    let passTab = false;
+
     if (tab === "showing") {
-      // Phim có lịch chiếu <= hôm nay
-      const today = new Date();
-      return movie.showtimes?.some(show =>
-        new Date(show.date) <= today
+      passTab = movie.showtimes?.some(
+        (show) => new Date(show.date) <= today
       );
-    }
-    if (tab === "upcoming") {
-      // Phim có lịch chiếu > hôm nay
-      const today = new Date();
-      return movie.showtimes?.some(show =>
-        new Date(show.date) > today
+    } else if (tab === "upcoming") {
+      passTab = movie.showtimes?.some(
+        (show) => new Date(show.date) > today
       );
+    } else if (tab === "imax") {
+      passTab = movie.rating >= 8.5;
+    } else {
+      passTab = true;
     }
-    if (tab === "imax") {
-      // Phim có rating >= 8.5 tạm coi là IMAX
-      return movie.rating >= 8.5;
-    }
-    if (tab === "nationwide") {
-      return true;
-    }
-    return true;
+
+    const movieGenres = movie.genre.split(",").map((g) => g.trim());
+    const passGenre =
+      selectedGenres.length === 0 ||
+      selectedGenres.some((g) => movieGenres.includes(g));
+
+    return passTab && passGenre;
   });
 
   if (loading) {
@@ -61,10 +82,9 @@ function Home() {
 
   return (
     <div className="galaxy-cinema">
-      <Header/>
-      {/* HEADER GIỮ HOẶC BỎ TÙY Ý */}
+      <Header />
       <HeroBanner />
-      {/* Movie Tabs */}
+
       <div className="container">
         <div className="movie-section">
           <div className="section-header">
@@ -82,16 +102,60 @@ function Home() {
             </div>
           </div>
 
-          {/* Movie Grid */}
+          {/* Bộ lọc thể loại */}
+          <div className="genre-filter" style={{ margin: "15px 0", color: "black" }}>
+            <strong>Thể loại:</strong>
+            {genres.map((genre) => (
+              <label key={genre} style={{ marginRight: "8px", marginLeft: "10px", color: "black" }}>
+                <input
+                  type="checkbox"
+                  value={genre}
+                  checked={selectedGenres.includes(genre)}
+                  onChange={() => toggleGenre(genre)}
+                />
+                {genre}
+              </label>
+            ))}
+            {selectedGenres.length > 0 && (
+              <div style={{ marginTop: "10px" }}>
+                <strong>Đã chọn:</strong>{" "}
+                {selectedGenres.map((g, idx) => (
+                  <span key={g}>
+                    {g}
+                    {idx < selectedGenres.length - 1 ? ", " : ""}
+                  </span>
+                ))}
+                <button
+                  onClick={() => setSelectedGenres([])}
+                  style={{
+                    marginLeft: "10px",
+                    padding: "2px 8px",
+                    cursor: "pointer",
+                  }}
+                >
+                  Xóa tất cả
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Danh sách phim */}
           <div className="movie-grid">
             {filteredMovies.map((movie) => (
               <div className="movie-card" key={movie.id}>
                 <div className="movie-poster-container">
-                  <img src={movie.poster} className="movie-poster" alt={movie.title} />
+                  <img
+                    src={movie.poster}
+                    className="movie-poster"
+                    alt={movie.title}
+                  />
                   <div className="movie-badges">
-                   
-                    {movie.rating >= 8.5 && <span className="badge badge-hot">HOT</span>}
-                    {movie.showtimes?.some(show => new Date(show.date) > new Date()) && (
+                    {movie.rating >= 8.5 && (
+                      <span className="badge badge-hot">HOT</span>
+                    )}
+                    {movie.showtimes?.some(
+                      (show) => new Date(show.date) > new Date()
+                    ) && (
                       <span className="badge badge-new">NEW</span>
                     )}
                   </div>
@@ -99,16 +163,13 @@ function Home() {
                     <span className="rating-star">★</span>
                     <span className="rating-score">{movie.rating}</span>
                   </div>
-                  
                 </div>
                 <div className="movie-info">
                   <Link to={`/movies/${movie.id}`}>
-                
-                      <h3>{movie.title}</h3>
-                      </Link>
+                    <h3>{movie.title}</h3>
+                  </Link>
                   <p>{movie.genre}</p>
                   <p>{movie.duration}</p>
-                 
                 </div>
               </div>
             ))}
